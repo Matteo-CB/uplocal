@@ -17,6 +17,9 @@ importers:
       '@tensorflow/tfjs':
         specifier: ^4.22.0
         version: 4.22.0(seedrandom@3.0.5)
+      '@upscalerjs/esrgan-medium':
+        specifier: 1.0.0-beta.13
+        version: 1.0.0-beta.13(@tensorflow/tfjs@4.22.0(seedrandom@3.0.5))
       '@upscalerjs/esrgan-slim':
         specifier: 1.0.0-beta.12
         version: 1.0.0-beta.12(@tensorflow/tfjs@4.22.0(seedrandom@3.0.5))
@@ -1049,6 +1052,11 @@ packages:
 
   '@upscalerjs/default-model@1.0.0-beta.17':
     resolution: {integrity: sha512-bURogpfEo25enFIWQQF3/+oTvuSUKapd/bum/H0f9HZzA6ncufJC4llneAjoJ0FZWl6bnB32gIiJylIsTtTD3A==}
+    peerDependencies:
+      '@tensorflow/tfjs': ~4.11.0
+
+  '@upscalerjs/esrgan-medium@1.0.0-beta.13':
+    resolution: {integrity: sha512-p5QU+pFktEUWo5sHnAleMM6LkcxOtnhfhRbv0I5Kq4fmRHGjpJOdEz1p14CDsRokUH1GbC2EOi8V5kgOt4exdA==}
     peerDependencies:
       '@tensorflow/tfjs': ~4.11.0
 
@@ -3483,6 +3491,10 @@ snapshots:
     optional: true
 
   '@upscalerjs/default-model@1.0.0-beta.17(@tensorflow/tfjs@4.22.0(seedrandom@3.0.5))':
+    dependencies:
+      '@tensorflow/tfjs': 4.22.0(seedrandom@3.0.5)
+
+  '@upscalerjs/esrgan-medium@1.0.0-beta.13(@tensorflow/tfjs@4.22.0(seedrandom@3.0.5))':
     dependencies:
       '@tensorflow/tfjs': 4.22.0(seedrandom@3.0.5)
 

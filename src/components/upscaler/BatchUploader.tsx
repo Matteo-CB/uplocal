@@ -84,8 +84,8 @@ export function BatchUploader({
       import("upscaler"),
       import("@tensorflow/tfjs"),
       scale === 8 || scale === 4
-        ? import("@upscalerjs/esrgan-slim/4x")
-        : import("@upscalerjs/esrgan-slim/2x"),
+        ? import("@upscalerjs/esrgan-medium/4x")
+        : import("@upscalerjs/esrgan-medium/2x"),
     ]);
     await tfjs.ready();
 
@@ -132,7 +132,7 @@ export function BatchUploader({
             img2.src = firstPass;
           });
 
-          const model2x = await import("@upscalerjs/esrgan-slim/2x");
+          const model2x = await import("@upscalerjs/esrgan-medium/2x");
           const upscaler2 = new Upscaler({ model: model2x.default });
           upscaledSrc = await upscaler2.upscale(img2, {
             output: "base64",

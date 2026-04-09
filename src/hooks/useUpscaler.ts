@@ -31,7 +31,7 @@ interface UpscaleOptions {
   customHeight?: number;
 }
 
-// ─── Global caches: persist across hook instances and re-renders ───
+// ─── Global caches ───
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 let tf: any = null;
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -46,7 +46,6 @@ async function ensureBackend() {
     tf = await import("@tensorflow/tfjs");
   }
   await tf.ready();
-  // Try WebGL first (GPU), fall back to WASM or CPU
   const currentBackend = tf.getBackend();
   if (currentBackend !== "webgl") {
     try {
@@ -56,7 +55,7 @@ async function ensureBackend() {
       // Stay on whatever backend is available
     }
   }
-  // Warm up the WebGL context with a tiny tensor op
+  // Warm up WebGL
   const warmup = tf.zeros([1, 1, 1]);
   warmup.dispose();
   backendReady = true;
@@ -68,10 +67,11 @@ async function ensureUpscaler(modelKey: "2x" | "4x") {
     UpscalerClass = mod.default;
   }
   if (!upscalerInstances[modelKey]) {
+    // Use esrgan-medium for much better quality (vs esrgan-slim)
     const modelModule =
       modelKey === "4x"
-        ? await import("@upscalerjs/esrgan-slim/4x")
-        : await import("@upscalerjs/esrgan-slim/2x");
+        ? await import("@upscalerjs/esrgan-medium/4x")
+        : await import("@upscalerjs/esrgan-medium/2x");
     upscalerInstances[modelKey] = new UpscalerClass({
       model: modelModule.default,
     });
@@ -87,12 +87,11 @@ export function useUpscaler() {
   const [error, setError] = useState<string | null>(null);
   const abortRef = useRef(false);
 
-  // Warm up TF.js backend as soon as the hook mounts (while user is idle)
+  // Warm up TF.js backend immediately
   useEffect(() => {
     ensureBackend();
   }, []);
 
-  // Preload a model in the background (call when user drops an image)
   const preloadModel = useCallback(async (scale: Scale) => {
     try {
       await ensureBackend();
@@ -100,7 +99,7 @@ export function useUpscaler() {
       await ensureUpscaler(key as "2x" | "4x");
       if (scale === 8) await ensureUpscaler("2x");
     } catch {
-      // Non-critical, model will load at upscale time
+      // Non-critical
     }
   }, []);
 
@@ -119,7 +118,7 @@ export function useUpscaler() {
       setError(null);
 
       try {
-        // ─── 1. Ensure backend + model ready ───
+        // ─── 1. Backend + model ───
         await ensureBackend();
         setProgress(5);
 
@@ -130,22 +129,41 @@ export function useUpscaler() {
         setProgress(15);
         setState("processing");
 
-        // ─── 2. Decode image directly via createImageBitmap (off main thread) ───
+        // ─── 2. Decode image preserving transparency ───
         const bitmap = await createImageBitmap(file);
         const inputWidth = bitmap.width;
         const inputHeight = bitmap.height;
 
-        // Draw to a canvas. UpscalerJS accepts canvas elements directly
-        // via tf.browser.fromPixels internally. No need for toDataURL.
+        // Detect if image has alpha channel
+        const detectCanvas = document.createElement("canvas");
+        detectCanvas.width = inputWidth;
+        detectCanvas.height = inputHeight;
+        const detectCtx = detectCanvas.getContext("2d", { willReadFrequently: true })!;
+        detectCtx.drawImage(bitmap, 0, 0);
+        const pixelData = detectCtx.getImageData(0, 0, inputWidth, inputHeight);
+        let hasAlpha = false;
+        for (let i = 3; i < pixelData.data.length; i += 4) {
+          if (pixelData.data[i] < 255) {
+            hasAlpha = true;
+            break;
+          }
+        }
+        detectCanvas.width = 0;
+        detectCanvas.height = 0;
+
+        // Create source canvas (white background for AI, preserving original for alpha compositing later)
         const srcCanvas = document.createElement("canvas");
         srcCanvas.width = inputWidth;
         srcCanvas.height = inputHeight;
         const srcCtx = srcCanvas.getContext("2d")!;
+
+        // For AI processing: fill white background (avoids black artifacts)
+        srcCtx.fillStyle = "#ffffff";
+        srcCtx.fillRect(0, 0, inputWidth, inputHeight);
         srcCtx.drawImage(bitmap, 0, 0);
         bitmap.close();
 
-        // Create an img from the canvas for UpscalerJS
-        // Use toBlob (async, non-blocking) instead of toDataURL (sync, blocking)
+        // Create img element for UpscalerJS
         const srcBlob = await new Promise<Blob>((resolve) => {
           srcCanvas.toBlob((b) => resolve(b!), "image/png");
         });
@@ -160,15 +178,13 @@ export function useUpscaler() {
         setProgress(20);
         if (abortRef.current) { URL.revokeObjectURL(srcUrl); return; }
 
-        // ─── 3. Upscale with large patchSize for speed ───
-        // patchSize 128 = fewer tiles = less overhead. padding 2 is sufficient.
-        const patchSize = 128;
-        const padding = 2;
+        // ─── 3. Upscale ───
+        const patchSize = 64;
+        const padding = 4;
 
         let upscaledSrc: string;
 
         if (scale === 8) {
-          // Pass 1: 4x
           const firstPass = await upscaler.upscale(img, {
             output: "base64",
             patchSize,
@@ -180,7 +196,6 @@ export function useUpscaler() {
 
           if (abortRef.current) { URL.revokeObjectURL(srcUrl); return; }
 
-          // Pass 2: 2x on the 4x result
           const img2 = new Image();
           img2.src = firstPass;
           await new Promise<void>((r) => { img2.onload = () => r(); });
@@ -208,8 +223,7 @@ export function useUpscaler() {
         if (abortRef.current) return;
         setProgress(92);
 
-        // ─── 4. Convert result to final format ───
-        // Decode the base64 result into a canvas for format conversion
+        // ─── 4. Reconstruct with alpha if needed ───
         const outImg = new Image();
         outImg.src = upscaledSrc;
         await new Promise<void>((r) => { outImg.onload = () => r(); });
@@ -223,23 +237,87 @@ export function useUpscaler() {
           (customWidth !== finalWidth || customHeight !== finalHeight);
 
         if (needsResize) {
-          outCanvas.width = customWidth;
-          outCanvas.height = customHeight;
-          const ctx = outCanvas.getContext("2d")!;
-          ctx.imageSmoothingEnabled = true;
-          ctx.imageSmoothingQuality = "high";
-          ctx.drawImage(outImg, 0, 0, customWidth, customHeight);
           finalWidth = customWidth;
           finalHeight = customHeight;
+        }
+
+        outCanvas.width = finalWidth;
+        outCanvas.height = finalHeight;
+        const outCtx = outCanvas.getContext("2d")!;
+
+        if (hasAlpha) {
+          // Upscale the alpha channel: scale the original alpha mask
+          const alphaCanvas = document.createElement("canvas");
+          alphaCanvas.width = finalWidth;
+          alphaCanvas.height = finalHeight;
+          const alphaCtx = alphaCanvas.getContext("2d", { willReadFrequently: true })!;
+
+          // Draw original image scaled up (nearest neighbor for alpha mask)
+          alphaCtx.imageSmoothingEnabled = true;
+          alphaCtx.imageSmoothingQuality = "high";
+          alphaCtx.drawImage(
+            detectCtx.canvas.width === 0
+              ? (() => {
+                  // Re-create detect canvas since we cleared it
+                  const c = document.createElement("canvas");
+                  c.width = inputWidth;
+                  c.height = inputHeight;
+                  const cx = c.getContext("2d")!;
+                  cx.putImageData(pixelData, 0, 0);
+                  return c;
+                })()
+              : detectCanvas,
+            0, 0, inputWidth, inputHeight,
+            0, 0, finalWidth, finalHeight
+          );
+
+          // Actually, let's just re-create from pixelData
+          const alphaSource = document.createElement("canvas");
+          alphaSource.width = inputWidth;
+          alphaSource.height = inputHeight;
+          alphaSource.getContext("2d")!.putImageData(pixelData, 0, 0);
+
+          alphaCtx.clearRect(0, 0, finalWidth, finalHeight);
+          alphaCtx.imageSmoothingEnabled = true;
+          alphaCtx.imageSmoothingQuality = "high";
+          alphaCtx.drawImage(alphaSource, 0, 0, finalWidth, finalHeight);
+
+          const scaledAlpha = alphaCtx.getImageData(0, 0, finalWidth, finalHeight);
+
+          // Draw the upscaled RGB
+          if (needsResize) {
+            outCtx.imageSmoothingEnabled = true;
+            outCtx.imageSmoothingQuality = "high";
+            outCtx.drawImage(outImg, 0, 0, finalWidth, finalHeight);
+          } else {
+            outCtx.drawImage(outImg, 0, 0);
+          }
+
+          // Apply original alpha channel onto upscaled result
+          const finalPixels = outCtx.getImageData(0, 0, finalWidth, finalHeight);
+          for (let i = 3; i < finalPixels.data.length; i += 4) {
+            finalPixels.data[i] = scaledAlpha.data[i];
+          }
+          outCtx.putImageData(finalPixels, 0, 0);
+
+          alphaCanvas.width = 0;
+          alphaCanvas.height = 0;
+          alphaSource.width = 0;
+          alphaSource.height = 0;
         } else {
-          outCanvas.width = finalWidth;
-          outCanvas.height = finalHeight;
-          outCanvas.getContext("2d")!.drawImage(outImg, 0, 0);
+          // No alpha: just draw normally
+          if (needsResize) {
+            outCtx.imageSmoothingEnabled = true;
+            outCtx.imageSmoothingQuality = "high";
+            outCtx.drawImage(outImg, 0, 0, finalWidth, finalHeight);
+          } else {
+            outCtx.drawImage(outImg, 0, 0);
+          }
         }
 
         setProgress(96);
 
-        // Use toBlob (async) for final encoding, faster than toDataURL
+        // ─── 5. Encode to final format ───
         const mimeType =
           outputFormat === "jpeg" ? "image/jpeg"
             : outputFormat === "webp" ? "image/webp"
@@ -252,7 +330,7 @@ export function useUpscaler() {
         const finalUrl = URL.createObjectURL(finalBlob);
         const processingTimeMs = Math.round(performance.now() - startTime);
 
-        // Free canvases
+        // Cleanup
         srcCanvas.width = 0;
         srcCanvas.height = 0;
         outCanvas.width = 0;
