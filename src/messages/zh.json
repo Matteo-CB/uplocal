@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "title": "Uplocal: AI图片放大工具，100%隐私保护，完全在浏览器中运行",
+    "description": "使用AI在浏览器中直接将图片放大至8倍。无需上传，无需服务器，完全保护隐私。您的文件始终留在您的设备上。",
+    "keywords": "AI图片放大, 图片增强, 提高图片分辨率, 图片无损放大, 浏览器图片放大"
+  },
+  "pricingMeta": {
+    "title": "价格 | Uplocal",
+    "description": "AI图片放大的简单透明定价。提供免费方案。为专业人士提供Pro和Studio方案。"
+  },
+  "upscaleMeta": {
+    "title": "放大您的图片 | Uplocal",
+    "description": "使用AI将图片放大至8倍。100%隐私保护，完全在浏览器中运行。"
+  },
+  "faqMeta": {
+    "title": "常见问题 | Uplocal",
+    "description": "关于Uplocal AI图片放大工具的常见问题。工作原理、支持的格式、价格说明。"
+  },
+  "aboutMeta": {
+    "title": "关于我们 | Uplocal",
+    "description": "了解Uplocal，由HiddenLab打造的隐私优先AI图片放大工具。100%浏览器端处理。"
+  },
+  "nav": {
+    "upscale": "图片放大",
+    "pricing": "价格",
+    "about": "关于",
+    "faq": "常见问题",
+    "signin": "登录",
+    "signup": "立即开始",
+    "dashboard": "控制台",
+    "signout": "退出登录",
+    "themeLight": "浅色",
+    "themeDark": "深色"
+  },
+  "hero": {
+    "title": "用AI放大任何图片，直接在浏览器中完成。",
+    "subtitle": "您的图片永远不会离开您的设备。Uplocal 完全在您的浏览器中通过 WebAssembly 运行。无需服务器，无需上传，隐私零妥协。",
+    "cta": "立即放大图片",
+    "secondaryCta": "查看价格"
+  },
+  "trust": {
+    "browser": "100% 浏览器处理",
+    "noUpload": "无需上传图片"
+  },
+  "howItWorks": {
+    "sectionLabel": "使用流程",
+    "step1": {
+      "number": "01",
+      "title": "拖放您的图片",
+      "description": "拖放任意图片或点击选择文件。支持 PNG、JPEG、WebP 和 BMP 格式。"
+    },
+    "step2": {
+      "number": "02",
+      "title": "选择放大倍数",
+      "description": "选择2倍、4倍或8倍放大。选定您需要的输出格式和画质级别。"
+    },
+    "step3": {
+      "number": "03",
+      "title": "即刻下载",
+      "description": "您的放大图片将在数秒内完成。直接下载，首次使用无需注册账号。"
+    }
+  },
+  "features": {
+    "sectionLabel": "为什么选择 Uplocal",
+    "privacy": {
+      "title": "100% 隐私保护",
+      "description": "您的图片完全在浏览器中本地处理。不会上传任何内容，不会存储任何数据，没有人能看到您的文件。"
+    },
+    "quality": {
+      "title": "AI 驱动的画质",
+      "description": "Real-ESRGAN 神经网络通过 WebAssembly 运行，提供专业级图片放大效果，能够去除伪影并增强细节。"
+    },
+    "speed": {
+      "title": "即时出结果",
+      "description": "无需在服务器队列中等待。处理立即在您的设备上开始。大多数图片在10秒内完成放大。"
+    },
+    "formats": {
+      "title": "支持所有格式",
+      "description": "上传 PNG、JPEG、WebP 或 BMP 文件。以您偏好的格式下载，支持调节画质设置。"
+    }
+  },
+  "upscaler": {
+    "title": "放大您的图片",
+    "dropzone": "将图片拖放到此处或点击浏览",
+    "dropzoneFormats": "PNG、JPEG、WebP、BMP，最大10MB",
+    "scaleLabel": "放大倍数",
+    "formatLabel": "输出格式",
+    "qualityLabel": "画质",
+    "upscaleButton": "开始放大",
+    "processing": "正在处理您的图片",
+    "download": "下载放大后的图片",
+    "compare": "对比放大前后效果",
+    "newImage": "放大另一张图片",
+    "freeLimit": "您今日的免费放大次数已用完",
+    "upgradePrompt": "升级以解锁无限次4倍和8倍放大",
+    "batchTitle": "批量处理",
+    "batchDescription": "拖入多张图片，一次性全部处理",
+    "originalSize": "原图",
+    "upscaledSize": "放大后",
+    "processingTime": "处理时间",
+    "fileSize": "文件大小",
+    "loadingModel": "正在加载AI模型",
+    "errorUnsupported": "不支持此文件格式。请使用 PNG、JPEG、WebP 或 BMP。",
+    "errorTooLarge": "文件过大。最大支持",
+    "errorProcessing": "出了点问题，请重试。",
+    "errorWasm": "您的浏览器不支持 WebAssembly。请使用 Chrome、Firefox、Safari 或 Edge 等现代浏览器。",
+    "offline": "您当前处于离线状态。图片放大功能仍然可用。",
+    "tryIt": "立即体验",
+    "pro": "Pro",
+    "studio": "Studio",
+    "customDimensions": "Custom dimensions"
+  },
+  "pricing": {
+    "sectionLabel": "价格",
+    "title": "简单透明的价格",
+    "subtitle": "免费开始使用，需要更多功能时再升级。",
+    "free": {
+      "name": "免费版",
+      "price": "0",
+      "period": "永久免费",
+      "features": [
+        "每天1次放大",
+        "最高2倍放大",
+        "PNG 和 JPEG 输出",
+        "标准处理速度"
+      ],
+      "cta": "免费开始"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "最受欢迎",
+      "priceMonthly": "9",
+      "priceYearly": "79",
+      "period": "月",
+      "periodYearly": "年",
+      "features": [
+        "无限次放大",
+        "最高4倍放大",
+        "所有输出格式",
+        "批量处理最多10张图片",
+        "优先加载模型"
+      ],
+      "cta": "开始使用 Pro"
+    },
+    "studio": {
+      "name": "Studio",
+      "priceMonthly": "24",
+      "priceYearly": "199",
+      "period": "月",
+      "periodYearly": "年",
+      "features": [
+        "包含 Pro 所有功能",
+        "最高8倍放大",
+        "批量处理最多50张图片",
+        "自定义输出尺寸",
+        "API 访问",
+        "商业使用许可"
+      ],
+      "cta": "开始使用 Studio"
+    },
+    "toggle": {
+      "monthly": "按月付费",
+      "yearly": "按年付费",
+      "save": "节省27%"
+    },
+    "currency": "$",
+    "comparison": {
+      "title": "功能对比",
+      "feature": "功能",
+      "upscalesPerDay": "每日放大次数",
+      "maxScale": "最大放大倍数",
+      "outputFormats": "输出格式",
+      "batchProcessing": "批量处理",
+      "maxFileSize": "最大文件大小",
+      "customDimensions": "自定义尺寸",
+      "apiAccess": "API 访问",
+      "commercialLicense": "商业许可",
+      "free_upscalesPerDay": "1",
+      "free_maxScale": "2x",
+      "free_outputFormats": "PNG, JPEG",
+      "free_batchProcessing": "不支持",
+      "free_maxFileSize": "5MB",
+      "free_customDimensions": "不支持",
+      "free_apiAccess": "不支持",
+      "free_commercialLicense": "不支持",
+      "pro_upscalesPerDay": "无限",
+      "pro_maxScale": "4x",
+      "pro_outputFormats": "PNG, JPEG, WebP",
+      "pro_batchProcessing": "最多10张",
+      "pro_maxFileSize": "10MB",
+      "pro_customDimensions": "不支持",
+      "pro_apiAccess": "不支持",
+      "pro_commercialLicense": "不支持",
+      "studio_upscalesPerDay": "无限",
+      "studio_maxScale": "8x",
+      "studio_outputFormats": "PNG, JPEG, WebP",
+      "studio_batchProcessing": "最多50张",
+      "studio_maxFileSize": "10MB",
+      "studio_customDimensions": "支持",
+      "studio_apiAccess": "支持",
+      "studio_commercialLicense": "支持"
+    },
+    "faq": {
+      "switch": {
+        "question": "可以更换套餐吗？",
+        "answer": "可以，您可以随时升级或降级。更改将在下一个计费周期开始时生效。"
+      },
+      "refund": {
+        "question": "提供退款吗？",
+        "answer": "是的。如果您在前7天内不满意，请联系我们获取全额退款。"
+      },
+      "cancel": {
+        "question": "可以随时取消吗？",
+        "answer": "当然可以。您可以随时在控制台中取消订阅。在当前计费周期结束前，您仍可继续使用所有功能。"
+      }
+    }
+  },
+  "faq": {
+    "sectionLabel": "常见问题",
+    "title": "常见问题解答",
+    "items": [
+      {
+        "question": "Uplocal 如何在没有服务器的情况下放大图片？",
+        "answer": "Uplocal 使用 Real-ESRGAN（一种AI图片放大模型），将其编译为 WebAssembly。这意味着AI模型直接在您的浏览器中、在您自己的设备上运行。您的图片永远不会离开您的电脑。"
+      },
+      {
+        "question": "有文件大小限制吗？",
+        "answer": "免费用户可以放大最大5MB的图片。Pro 和 Studio 用户可以处理最大10MB的图片。对于非常大的图片，我们建议使用4000x4000像素以内的图片以获得最佳效果。"
+      },
+      {
+        "question": "支持哪些图片格式？",
+        "answer": "Uplocal 接受 PNG、JPEG、WebP 和 BMP 作为输入格式。输出可以保存为 PNG、JPEG 或 WebP，并支持调节画质设置。"
+      },
+      {
+        "question": "放大需要多长时间？",
+        "answer": "处理时间取决于图片大小和您的设备性能。一张典型的1080p图片放大2倍，在现代笔记本电脑上大约需要5到15秒。4倍和8倍放大会相应需要更长时间。"
+      },
+      {
+        "question": "可以取消订阅吗？",
+        "answer": "可以，您可以随时从控制台取消订阅。在当前计费周期结束之前，您仍可继续使用套餐内的所有功能。"
+      },
+      {
+        "question": "在手机上能用吗？",
+        "answer": "Uplocal 可在支持 WebAssembly 的移动浏览器上运行，包括 iOS 和 Android 上的 Chrome 和 Safari。实际性能因设备而异。"
+      }
+    ],
+    "seeAll": "查看所有问题"
+  },
+  "about": {
+    "sectionLabel": "关于 Uplocal",
+    "title": "尊重隐私的AI图片放大",
+    "intro": "Uplocal 建立在一个简单的原则之上：您的图片属于您自己。大多数在线放大工具要求您将文件上传到远程服务器，在那里文件会被处理、存储，有时甚至在您不知情的情况下被使用。我们采取了一种根本不同的方式。Uplocal 在您的设备上处理每一个像素。您的图片永远不会离开您的浏览器。没有任何服务器能看到您的文件。",
+    "howTitle": "工作原理",
+    "howContent": "Uplocal 使用 ESRGAN（Enhanced Super Resolution Generative Adversarial Network），这是一种专门训练用于提高图像分辨率、同时保留细节和减少伪影的AI模型。该模型通过 TensorFlow.js 直接在您的浏览器中运行，借助 WebGL 或 WebGPU 加速来使用设备的GPU。当您拖入一张图片时，AI模型会加载一次并在本地缓存。随后图片会以分块方式处理，以高效管理内存。放大后的结果被拼接完成后即可下载，整个过程中没有一个字节离开您的设备。",
+    "whyTitle": "为什么选择本地处理",
+    "whyContent": "基于服务器的放大服务会将您的图片通过互联网传输到远程数据中心。这带来了隐私风险、延迟、带宽成本以及对第三方可用性的依赖。使用 Uplocal，计算就在数据已经存在的地方进行：您的设备上。这意味着在首次加载模型后该工具可以离线工作，没有上传队列，您的图片保持100%私密。这也意味着处理零服务器成本，使我们能够提供慷慨的免费方案。",
+    "techTitle": "技术实现",
+    "techContent": "TensorFlow.js 使得在现代浏览器中以接近原生的速度运行训练好的神经网络成为可能。Uplocal 利用 WebGL 和 WebGPU 后端进行GPU加速推理。图片以重叠的分块方式处理（分块大小根据您的方案可配置），并无缝拼接。AI模型权重在首次使用时下载，并缓存在浏览器存储中以供后续即时加载。输出格式包括PNG、JPEG和WebP，画质可调。Pro和Studio用户可使用更大的处理分块，从而获得更快的推理速度。",
+    "companyTitle": "由 HiddenLab 打造",
+    "companyContent": "Uplocal 由 HiddenLab 开发，这是一家专注于构建隐私优先工具的法国软件工作室。我们相信，强大的技术不应该要求您牺牲自己的数据。如果您有任何问题、反馈或想与我们联系，请发送邮件至 contact@metalya.fr。"
+  },
+  "legal": {
+    "privacy": {
+      "title": "隐私政策",
+      "lastUpdated": "最后更新"
+    },
+    "terms": {
+      "title": "服务条款",
+      "lastUpdated": "最后更新"
+    }
+  },
+  "footer": {
+    "description": "AI图片放大，100%在浏览器中完成。您的文件始终留在您的设备上。",
+    "product": "产品",
+    "company": "公司",
+    "legal": "法律",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "copyright": "Uplocal. 保留所有权利。",
+    "madeBy": "由...创建"
+  },
+  "auth": {
+    "signinTitle": "欢迎回来",
+    "signupTitle": "创建您的账号",
+    "google": "Google",
+    "noAccount": "还没有账号？",
+    "hasAccount": "已有账号？",
+    "signupLink": "创建账号",
+    "signinLink": "登录",
+    "emailSent": "请查看您的邮箱以获取登录链接。",
+    "error": "出了点问题，请重试。"
+  },
+  "dashboard": {
+    "title": "控制台",
+    "welcome": "欢迎回来",
+    "usage": "本月使用情况",
+    "history": "最近的放大记录",
+    "plan": "当前套餐",
+    "upgrade": "升级套餐",
+    "manageBilling": "管理账单",
+    "settings": "设置",
+    "settingsTitle": "账号设置",
+    "historyTitle": "放大历史",
+    "noHistory": "还没有放大记录。试试您的第一次放大。",
+    "upscaleNow": "放大一张图片",
+    "totalUpscales": "总放大次数",
+    "avgTime": "平均耗时",
+    "defaultScale": "默认放大倍数",
+    "defaultFormat": "默认格式",
+    "defaultQuality": "默认画质",
+    "theme": "主题",
+    "language": "语言",
+    "save": "保存更改",
+    "saved": "设置已保存。"
+  },
+  "common": {
+    "loading": "加载中",
+    "error": "出了点问题",
+    "retry": "重试",
+    "back": "返回",
+    "notFound": "页面未找到",
+    "notFoundDescription": "您要找的页面不存在或已被移动。",
+    "backHome": "返回首页"
+  }
+}

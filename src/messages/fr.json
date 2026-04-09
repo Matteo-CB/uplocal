@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "title": "Uplocal : Upscaler d'images par IA, 100% prive, directement dans votre navigateur",
+    "description": "Agrandissez vos images jusqu'a 8x grace a l'IA, directement dans votre navigateur. Aucun envoi, aucun serveur, confidentialite totale. Vos fichiers ne quittent jamais votre appareil.",
+    "keywords": "agrandir image, ameliorer qualite image, upscaler image IA, augmenter resolution image, ameliorer photo en ligne, upscaler image sans upload"
+  },
+  "pricingMeta": {
+    "title": "Tarifs | Uplocal",
+    "description": "Des tarifs simples et transparents pour l'agrandissement d'images par IA. Offre gratuite disponible. Forfaits Pro et Studio pour les professionnels."
+  },
+  "upscaleMeta": {
+    "title": "Agrandissez votre image | Uplocal",
+    "description": "Importez et agrandissez votre image jusqu'a 8x avec l'IA. 100% prive, fonctionne dans votre navigateur."
+  },
+  "faqMeta": {
+    "title": "FAQ | Uplocal",
+    "description": "Questions frequentes sur l'upscaler d'images IA Uplocal. Fonctionnement, formats pris en charge, tarifs."
+  },
+  "aboutMeta": {
+    "title": "A propos | Uplocal",
+    "description": "Decouvrez Uplocal, l'upscaler d'images IA qui respecte votre vie privee, concu par HiddenLab. Traitement 100% dans le navigateur."
+  },
+  "nav": {
+    "upscale": "Agrandir",
+    "pricing": "Tarifs",
+    "about": "A propos",
+    "faq": "FAQ",
+    "signin": "Se connecter",
+    "signup": "Commencer",
+    "dashboard": "Tableau de bord",
+    "signout": "Deconnexion",
+    "themeLight": "Clair",
+    "themeDark": "Sombre"
+  },
+  "hero": {
+    "title": "Agrandissez vos images par IA. Directement dans votre navigateur.",
+    "subtitle": "Vos images ne quittent jamais votre appareil. Uplocal fonctionne entierement dans votre navigateur grace a WebAssembly. Aucun serveur, aucun envoi, aucun compromis sur la confidentialite.",
+    "cta": "Agrandir une image maintenant",
+    "secondaryCta": "Voir les tarifs"
+  },
+  "trust": {
+    "browser": "100% dans le navigateur",
+    "noUpload": "Aucun envoi d'image"
+  },
+  "howItWorks": {
+    "sectionLabel": "Comment ca marche",
+    "step1": {
+      "number": "01",
+      "title": "Deposez votre image",
+      "description": "Glissez et deposez une image ou cliquez pour parcourir vos fichiers. Nous acceptons les formats PNG, JPEG, WebP et BMP."
+    },
+    "step2": {
+      "number": "02",
+      "title": "Choisissez l'echelle",
+      "description": "Selectionnez un agrandissement de 2x, 4x ou 8x. Choisissez votre format de sortie et le niveau de qualite."
+    },
+    "step3": {
+      "number": "03",
+      "title": "Telechargez instantanement",
+      "description": "Votre image agrandie est prete en quelques secondes. Telechargez la directement, aucun compte requis pour votre premier agrandissement."
+    }
+  },
+  "features": {
+    "sectionLabel": "Pourquoi Uplocal",
+    "privacy": {
+      "title": "100% confidentiel",
+      "description": "Vos images sont traitees localement dans votre navigateur. Rien n'est envoye. Rien n'est stocke. Personne ne voit vos fichiers."
+    },
+    "quality": {
+      "title": "Qualite par IA",
+      "description": "Le reseau de neurones Real-ESRGAN, execute via WebAssembly, offre un agrandissement de qualite professionnelle avec suppression des artefacts et amelioration des details."
+    },
+    "speed": {
+      "title": "Resultats instantanes",
+      "description": "Pas d'attente dans une file d'attente serveur. Le traitement demarre immediatement sur votre materiel. La plupart des images sont agrandies en moins de 10 secondes."
+    },
+    "formats": {
+      "title": "Tous les formats acceptes",
+      "description": "Importez du PNG, JPEG, WebP ou BMP. Telechargez dans le format de votre choix avec des reglages de qualite ajustables."
+    }
+  },
+  "upscaler": {
+    "title": "Agrandissez votre image",
+    "dropzone": "Deposez votre image ici ou cliquez pour parcourir",
+    "dropzoneFormats": "PNG, JPEG, WebP, BMP jusqu'a 10 Mo",
+    "scaleLabel": "Echelle",
+    "formatLabel": "Format de sortie",
+    "qualityLabel": "Qualite",
+    "upscaleButton": "Agrandir",
+    "processing": "Traitement de votre image en cours",
+    "download": "Telecharger l'image agrandie",
+    "compare": "Comparer avant et apres",
+    "newImage": "Agrandir une autre image",
+    "freeLimit": "Vous avez utilise votre agrandissement gratuit du jour",
+    "upgradePrompt": "Passez a un forfait superieur pour debloquer l'agrandissement illimite en 4x et 8x",
+    "batchTitle": "Traitement par lot",
+    "batchDescription": "Glissez plusieurs images pour les traiter toutes en une fois",
+    "originalSize": "Original",
+    "upscaledSize": "Agrandi",
+    "processingTime": "Temps de traitement",
+    "fileSize": "Taille du fichier",
+    "loadingModel": "Chargement du modele IA",
+    "errorUnsupported": "Ce format de fichier n'est pas pris en charge. Veuillez utiliser PNG, JPEG, WebP ou BMP.",
+    "errorTooLarge": "Ce fichier est trop volumineux. La taille maximale est de",
+    "errorProcessing": "Une erreur est survenue. Veuillez reessayer.",
+    "errorWasm": "Votre navigateur ne prend pas en charge WebAssembly. Veuillez utiliser un navigateur moderne comme Chrome, Firefox, Safari ou Edge.",
+    "offline": "Vous etes hors ligne. L'agrandissement fonctionne toujours.",
+    "tryIt": "Essayer maintenant",
+    "pro": "Pro",
+    "studio": "Studio",
+    "customDimensions": "Dimensions personnalisees"
+  },
+  "pricing": {
+    "sectionLabel": "Tarifs",
+    "title": "Des tarifs simples et transparents",
+    "subtitle": "Commencez gratuitement, passez a un forfait superieur quand vous avez besoin de plus.",
+    "free": {
+      "name": "Gratuit",
+      "price": "0",
+      "period": "pour toujours",
+      "features": [
+        "1 agrandissement par jour",
+        "Echelle maximale 2x",
+        "Sortie PNG et JPEG",
+        "Traitement standard"
+      ],
+      "cta": "Commencer gratuitement"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "Le plus populaire",
+      "priceMonthly": "9",
+      "priceYearly": "79",
+      "period": "mois",
+      "periodYearly": "an",
+      "features": [
+        "Agrandissements illimites",
+        "Echelle jusqu'a 4x",
+        "Tous les formats de sortie",
+        "Traitement par lot jusqu'a 10 images",
+        "Chargement prioritaire du modele"
+      ],
+      "cta": "Choisir Pro"
+    },
+    "studio": {
+      "name": "Studio",
+      "priceMonthly": "24",
+      "priceYearly": "199",
+      "period": "mois",
+      "periodYearly": "an",
+      "features": [
+        "Tout ce qui est inclus dans Pro",
+        "Echelle jusqu'a 8x",
+        "Traitement par lot jusqu'a 50 images",
+        "Dimensions de sortie personnalisees",
+        "Acces API",
+        "Licence commerciale"
+      ],
+      "cta": "Choisir Studio"
+    },
+    "toggle": {
+      "monthly": "Mensuel",
+      "yearly": "Annuel",
+      "save": "Economisez 27%"
+    },
+    "currency": "$",
+    "comparison": {
+      "title": "Comparaison des fonctionnalites",
+      "feature": "Fonctionnalite",
+      "upscalesPerDay": "Agrandissements par jour",
+      "maxScale": "Echelle maximale",
+      "outputFormats": "Formats de sortie",
+      "batchProcessing": "Traitement par lot",
+      "maxFileSize": "Taille maximale des fichiers",
+      "customDimensions": "Dimensions personnalisees",
+      "apiAccess": "Acces API",
+      "commercialLicense": "Licence commerciale",
+      "free_upscalesPerDay": "1",
+      "free_maxScale": "2x",
+      "free_outputFormats": "PNG, JPEG",
+      "free_batchProcessing": "Non",
+      "free_maxFileSize": "5 Mo",
+      "free_customDimensions": "Non",
+      "free_apiAccess": "Non",
+      "free_commercialLicense": "Non",
+      "pro_upscalesPerDay": "Illimite",
+      "pro_maxScale": "4x",
+      "pro_outputFormats": "PNG, JPEG, WebP",
+      "pro_batchProcessing": "Jusqu'a 10",
+      "pro_maxFileSize": "10 Mo",
+      "pro_customDimensions": "Non",
+      "pro_apiAccess": "Non",
+      "pro_commercialLicense": "Non",
+      "studio_upscalesPerDay": "Illimite",
+      "studio_maxScale": "8x",
+      "studio_outputFormats": "PNG, JPEG, WebP",
+      "studio_batchProcessing": "Jusqu'a 50",
+      "studio_maxFileSize": "10 Mo",
+      "studio_customDimensions": "Oui",
+      "studio_apiAccess": "Oui",
+      "studio_commercialLicense": "Oui"
+    },
+    "faq": {
+      "switch": {
+        "question": "Puis je changer de forfait?",
+        "answer": "Oui, vous pouvez passer a un forfait superieur ou inferieur a tout moment. Les modifications prennent effet au debut de votre prochaine periode de facturation."
+      },
+      "refund": {
+        "question": "Proposez vous des remboursements?",
+        "answer": "Oui. Si vous n'etes pas satisfait dans les 7 premiers jours, contactez nous pour obtenir un remboursement integral."
+      },
+      "cancel": {
+        "question": "Puis je annuler a tout moment?",
+        "answer": "Tout a fait. Annulez depuis votre tableau de bord a tout moment. Vous conservez l'acces jusqu'a la fin de votre periode de facturation."
+      }
+    }
+  },
+  "faq": {
+    "sectionLabel": "Questions",
+    "title": "Questions frequentes",
+    "items": [
+      {
+        "question": "Comment Uplocal agrandit les images sans serveur?",
+        "answer": "Uplocal utilise Real-ESRGAN, un modele d'agrandissement par IA, compile en WebAssembly. Cela signifie que le modele IA s'execute directement dans votre navigateur, sur votre propre appareil. Vos images ne quittent jamais votre ordinateur."
+      },
+      {
+        "question": "Y a t il une limite de taille de fichier?",
+        "answer": "Les utilisateurs gratuits peuvent agrandir des images jusqu'a 5 Mo. Les utilisateurs Pro et Studio peuvent traiter des images jusqu'a 10 Mo. Pour de meilleurs resultats avec des images tres grandes, nous recommandons de commencer avec des images de moins de 4000x4000 pixels."
+      },
+      {
+        "question": "Quels formats d'image sont pris en charge?",
+        "answer": "Uplocal accepte les formats PNG, JPEG, WebP et BMP en entree. La sortie peut etre enregistree en PNG, JPEG ou WebP avec des reglages de qualite ajustables."
+      },
+      {
+        "question": "Combien de temps prend l'agrandissement?",
+        "answer": "Le temps de traitement depend de la taille de l'image et de votre appareil. Une image 1080p typique agrandie en 2x prend de 5 a 15 secondes sur un ordinateur portable moderne. Les echelles 4x et 8x prennent proportionnellement plus de temps."
+      },
+      {
+        "question": "Puis je annuler mon abonnement?",
+        "answer": "Oui, vous pouvez annuler a tout moment depuis votre tableau de bord. Vous conserverez l'acces aux fonctionnalites de votre forfait jusqu'a la fin de votre periode de facturation en cours."
+      },
+      {
+        "question": "Est ce que cela fonctionne sur mobile?",
+        "answer": "Uplocal fonctionne sur les navigateurs mobiles qui prennent en charge WebAssembly, y compris Chrome et Safari sur iOS et Android. Les performances varient en fonction des capacites de votre appareil."
+      }
+    ],
+    "seeAll": "Voir toutes les questions"
+  },
+  "about": {
+    "sectionLabel": "A propos d'Uplocal",
+    "title": "L'agrandissement d'images par IA qui respecte votre vie privee",
+    "intro": "Uplocal repose sur un principe simple : vos images vous appartiennent. La plupart des outils d'agrandissement en ligne exigent que vous envoyiez vos fichiers vers des serveurs distants, ou ils sont traites, stockes, et parfois utilises a votre insu. Nous avons adopte une approche fondamentalement differente. Uplocal traite chaque pixel sur votre appareil. Vos images ne quittent jamais votre navigateur. Aucun serveur ne voit jamais vos fichiers.",
+    "howTitle": "Comment ca fonctionne",
+    "howContent": "Uplocal utilise ESRGAN (Enhanced Super Resolution Generative Adversarial Network), un modele d'IA specifiquement entraine pour augmenter la resolution des images tout en preservant les details et en reduisant les artefacts. Le modele s'execute via TensorFlow.js directement dans votre navigateur, en utilisant le GPU de votre appareil grace a l'acceleration WebGL ou WebGPU. Lorsque vous deposez une image, le modele IA est charge une seule fois et mis en cache localement. Votre image est ensuite traitee par tuiles pour gerer efficacement la memoire. Le resultat agrandi est assemble et mis a disposition pour le telechargement, le tout sans qu'un seul octet ne quitte votre appareil.",
+    "whyTitle": "Pourquoi le traitement local",
+    "whyContent": "Les services d'agrandissement sur serveur transmettent vos images par Internet vers des centres de donnees distants. Cela introduit des risques pour la vie privee, de la latence, des couts de bande passante et une dependance a la disponibilite de tiers. Avec Uplocal, le calcul a lieu la ou les donnees se trouvent deja : sur votre machine. Cela signifie que l'outil fonctionne hors ligne apres le premier chargement du modele, qu'il n'y a pas de files d'attente d'envoi, et que vos images restent 100% privees. Cela signifie egalement zero cout serveur pour le traitement, ce qui nous permet d'offrir un genereux forfait gratuit.",
+    "techTitle": "La technologie",
+    "techContent": "TensorFlow.js permet d'executer des reseaux de neurones entraines a une vitesse quasi native dans les navigateurs modernes. Uplocal exploite les backends WebGL et WebGPU pour une inference acceleree par GPU. Les images sont traitees en tuiles superposees (taille de patch configurable selon votre forfait) et reassemblees de maniere transparente. Les poids du modele IA sont telecharges lors de la premiere utilisation et mis en cache dans le stockage de votre navigateur pour des chargements ulterieurs instantanes. Les formats de sortie incluent PNG, JPEG et WebP avec une qualite ajustable. Les utilisateurs Pro et Studio beneficient de tuiles de traitement plus grandes pour une inference plus rapide.",
+    "companyTitle": "Cree par HiddenLab",
+    "companyContent": "Uplocal est developpe par HiddenLab, un studio logiciel francais specialise dans la creation d'outils respectueux de la vie privee. Nous croyons que la technologie puissante ne devrait pas exiger le sacrifice de vos donnees. Si vous avez des questions, des retours ou souhaitez nous contacter, ecrivez nous a contact@metalya.fr."
+  },
+  "legal": {
+    "privacy": {
+      "title": "Politique de confidentialite",
+      "lastUpdated": "Derniere mise a jour"
+    },
+    "terms": {
+      "title": "Conditions d'utilisation",
+      "lastUpdated": "Derniere mise a jour"
+    }
+  },
+  "footer": {
+    "description": "Agrandissement d'images par IA, 100% dans votre navigateur. Vos fichiers ne quittent jamais votre appareil.",
+    "product": "Produit",
+    "company": "Entreprise",
+    "legal": "Mentions legales",
+    "privacy": "Politique de confidentialite",
+    "terms": "Conditions d'utilisation",
+    "copyright": "Uplocal. Tous droits reserves.",
+    "madeBy": "Cree par"
+  },
+  "auth": {
+    "signinTitle": "Bon retour parmi nous",
+    "signupTitle": "Creez votre compte",
+    "google": "Google",
+    "noAccount": "Pas encore de compte?",
+    "hasAccount": "Vous avez deja un compte?",
+    "signupLink": "Creer un compte",
+    "signinLink": "Se connecter",
+    "emailSent": "Consultez votre boite mail pour un lien de connexion.",
+    "error": "Une erreur est survenue. Veuillez reessayer."
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "welcome": "Bienvenue",
+    "usage": "Utilisation ce mois ci",
+    "history": "Agrandissements recents",
+    "plan": "Forfait actuel",
+    "upgrade": "Changer de forfait",
+    "manageBilling": "Gerer la facturation",
+    "settings": "Parametres",
+    "settingsTitle": "Parametres du compte",
+    "historyTitle": "Historique des agrandissements",
+    "noHistory": "Aucun agrandissement pour le moment. Essayez le premier.",
+    "upscaleNow": "Agrandir une image",
+    "totalUpscales": "Total des agrandissements",
+    "avgTime": "Temps moyen",
+    "defaultScale": "Echelle par defaut",
+    "defaultFormat": "Format par defaut",
+    "defaultQuality": "Qualite par defaut",
+    "theme": "Theme",
+    "language": "Langue",
+    "save": "Enregistrer les modifications",
+    "saved": "Parametres enregistres."
+  },
+  "common": {
+    "loading": "Chargement",
+    "error": "Une erreur est survenue",
+    "retry": "Reessayer",
+    "back": "Retour",
+    "notFound": "Page introuvable",
+    "notFoundDescription": "La page que vous recherchez n'existe pas ou a ete deplacee.",
+    "backHome": "Retour a l'accueil"
+  }
+}

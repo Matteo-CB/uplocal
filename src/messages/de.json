@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "title": "Uplocal: KI Bild Upscaler, 100% privat, laeuft in Ihrem Browser",
+    "description": "Skalieren Sie Ihre Bilder bis zu 8x mit KI direkt in Ihrem Browser hoch. Kein Upload, kein Server, absolute Privatsphaere. Ihre Dateien verlassen niemals Ihr Geraet.",
+    "keywords": "Bild vergroessern, Bildqualitaet verbessern, KI Bild hochskalieren, Bildaufloesung erhoehen, Bild hochskalieren online"
+  },
+  "pricingMeta": {
+    "title": "Preise | Uplocal",
+    "description": "Einfache, transparente Preise fuer KI Bildvergroesserung. Kostenloses Angebot verfuegbar. Pro und Studio Tarife fuer Profis."
+  },
+  "upscaleMeta": {
+    "title": "Bild hochskalieren | Uplocal",
+    "description": "Laden Sie Ihr Bild hoch und skalieren Sie es mit KI bis zu 8x hoch. 100% privat, laeuft in Ihrem Browser."
+  },
+  "faqMeta": {
+    "title": "FAQ | Uplocal",
+    "description": "Haeufig gestellte Fragen zum KI Bild Upscaler Uplocal. Funktionsweise, unterstuetzte Formate, Preise."
+  },
+  "aboutMeta": {
+    "title": "Ueber uns | Uplocal",
+    "description": "Erfahren Sie mehr ueber Uplocal, den datenschutzorientierten KI Bild Upscaler von HiddenLab. 100% Verarbeitung im Browser."
+  },
+  "nav": {
+    "upscale": "Hochskalieren",
+    "pricing": "Preise",
+    "about": "Ueber uns",
+    "faq": "FAQ",
+    "signin": "Anmelden",
+    "signup": "Loslegen",
+    "dashboard": "Dashboard",
+    "signout": "Abmelden",
+    "themeLight": "Hell",
+    "themeDark": "Dunkel"
+  },
+  "hero": {
+    "title": "Jedes Bild mit KI hochskalieren. Direkt in Ihrem Browser.",
+    "subtitle": "Ihre Bilder verlassen niemals Ihr Geraet. Uplocal laeuft vollstaendig in Ihrem Browser mit WebAssembly. Kein Server, kein Upload, kein Kompromiss bei der Privatsphaere.",
+    "cta": "Jetzt ein Bild hochskalieren",
+    "secondaryCta": "Preise ansehen"
+  },
+  "trust": {
+    "browser": "100% im Browser",
+    "noUpload": "Kein Bild Upload"
+  },
+  "howItWorks": {
+    "sectionLabel": "So funktioniert es",
+    "step1": {
+      "number": "01",
+      "title": "Bild ablegen",
+      "description": "Ziehen Sie ein Bild per Drag and Drop oder klicken Sie zum Durchsuchen. Wir akzeptieren PNG, JPEG, WebP und BMP Dateien."
+    },
+    "step2": {
+      "number": "02",
+      "title": "Skalierung waehlen",
+      "description": "Waehlen Sie 2x, 4x oder 8x Hochskalierung. Bestimmen Sie Ihr Ausgabeformat und die Qualitaetsstufe."
+    },
+    "step3": {
+      "number": "03",
+      "title": "Sofort herunterladen",
+      "description": "Ihr hochskaliertes Bild ist in Sekunden fertig. Laden Sie es direkt herunter, fuer Ihre erste Hochskalierung ist kein Konto erforderlich."
+    }
+  },
+  "features": {
+    "sectionLabel": "Warum Uplocal",
+    "privacy": {
+      "title": "100% privat",
+      "description": "Ihre Bilder werden lokal in Ihrem Browser verarbeitet. Nichts wird hochgeladen. Nichts wird gespeichert. Niemand sieht Ihre Dateien."
+    },
+    "quality": {
+      "title": "KI gestuetzte Qualitaet",
+      "description": "Das neuronale Netz Real-ESRGAN, ausgefuehrt ueber WebAssembly, liefert Hochskalierung in professioneller Qualitaet mit Artefaktentfernung und Detailverbesserung."
+    },
+    "speed": {
+      "title": "Sofortige Ergebnisse",
+      "description": "Kein Warten in Serverwarteschlangen. Die Verarbeitung startet sofort auf Ihrer Hardware. Die meisten Bilder werden in unter 10 Sekunden hochskaliert."
+    },
+    "formats": {
+      "title": "Alle Formate unterstuetzt",
+      "description": "Laden Sie PNG, JPEG, WebP oder BMP hoch. Laden Sie im bevorzugten Format mit einstellbaren Qualitaetsoptionen herunter."
+    }
+  },
+  "upscaler": {
+    "title": "Ihr Bild hochskalieren",
+    "dropzone": "Bild hier ablegen oder klicken zum Durchsuchen",
+    "dropzoneFormats": "PNG, JPEG, WebP, BMP bis zu 10 MB",
+    "scaleLabel": "Skalierung",
+    "formatLabel": "Ausgabeformat",
+    "qualityLabel": "Qualitaet",
+    "upscaleButton": "Hochskalieren",
+    "processing": "Ihr Bild wird verarbeitet",
+    "download": "Hochskaliertes Bild herunterladen",
+    "compare": "Vorher und nachher vergleichen",
+    "newImage": "Ein weiteres Bild hochskalieren",
+    "freeLimit": "Sie haben Ihre kostenlose Hochskalierung fuer heute verbraucht",
+    "upgradePrompt": "Upgraden Sie, um unbegrenztes Hochskalieren in 4x und 8x freizuschalten",
+    "batchTitle": "Stapelverarbeitung",
+    "batchDescription": "Ziehen Sie mehrere Bilder, um sie alle auf einmal zu verarbeiten",
+    "originalSize": "Original",
+    "upscaledSize": "Hochskaliert",
+    "processingTime": "Verarbeitungszeit",
+    "fileSize": "Dateigroesse",
+    "loadingModel": "KI Modell wird geladen",
+    "errorUnsupported": "Dieses Dateiformat wird nicht unterstuetzt. Bitte verwenden Sie PNG, JPEG, WebP oder BMP.",
+    "errorTooLarge": "Diese Datei ist zu gross. Die maximale Groesse betraegt",
+    "errorProcessing": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "errorWasm": "Ihr Browser unterstuetzt kein WebAssembly. Bitte verwenden Sie einen modernen Browser wie Chrome, Firefox, Safari oder Edge.",
+    "offline": "Sie sind offline. Das Hochskalieren funktioniert weiterhin.",
+    "tryIt": "Jetzt ausprobieren",
+    "pro": "Pro",
+    "studio": "Studio",
+    "customDimensions": "Benutzerdefinierte Abmessungen"
+  },
+  "pricing": {
+    "sectionLabel": "Preise",
+    "title": "Einfache, transparente Preise",
+    "subtitle": "Starten Sie kostenlos, upgraden Sie, wenn Sie mehr Leistung brauchen.",
+    "free": {
+      "name": "Kostenlos",
+      "price": "0",
+      "period": "fuer immer",
+      "features": [
+        "1 Hochskalierung pro Tag",
+        "Maximal 2x Skalierung",
+        "PNG und JPEG Ausgabe",
+        "Standardverarbeitung"
+      ],
+      "cta": "Kostenlos starten"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "Am beliebtesten",
+      "priceMonthly": "9",
+      "priceYearly": "79",
+      "period": "Monat",
+      "periodYearly": "Jahr",
+      "features": [
+        "Unbegrenzte Hochskalierungen",
+        "Bis zu 4x Skalierung",
+        "Alle Ausgabeformate",
+        "Stapelverarbeitung bis zu 10 Bilder",
+        "Priorisiertes Laden des Modells"
+      ],
+      "cta": "Pro waehlen"
+    },
+    "studio": {
+      "name": "Studio",
+      "priceMonthly": "24",
+      "priceYearly": "199",
+      "period": "Monat",
+      "periodYearly": "Jahr",
+      "features": [
+        "Alles aus Pro",
+        "Bis zu 8x Skalierung",
+        "Stapelverarbeitung bis zu 50 Bilder",
+        "Benutzerdefinierte Ausgabemasse",
+        "API-Zugang",
+        "Kommerzielle Lizenz"
+      ],
+      "cta": "Studio waehlen"
+    },
+    "toggle": {
+      "monthly": "Monatlich",
+      "yearly": "Jaehrlich",
+      "save": "27% sparen"
+    },
+    "currency": "$",
+    "comparison": {
+      "title": "Funktionsvergleich",
+      "feature": "Funktion",
+      "upscalesPerDay": "Hochskalierungen pro Tag",
+      "maxScale": "Maximale Skalierung",
+      "outputFormats": "Ausgabeformate",
+      "batchProcessing": "Stapelverarbeitung",
+      "maxFileSize": "Maximale Dateigroesse",
+      "customDimensions": "Benutzerdefinierte Masse",
+      "apiAccess": "API Zugang",
+      "commercialLicense": "Kommerzielle Lizenz",
+      "free_upscalesPerDay": "1",
+      "free_maxScale": "2x",
+      "free_outputFormats": "PNG, JPEG",
+      "free_batchProcessing": "Nein",
+      "free_maxFileSize": "5 MB",
+      "free_customDimensions": "Nein",
+      "free_apiAccess": "Nein",
+      "free_commercialLicense": "Nein",
+      "pro_upscalesPerDay": "Unbegrenzt",
+      "pro_maxScale": "4x",
+      "pro_outputFormats": "PNG, JPEG, WebP",
+      "pro_batchProcessing": "Bis zu 10",
+      "pro_maxFileSize": "10 MB",
+      "pro_customDimensions": "Nein",
+      "pro_apiAccess": "Nein",
+      "pro_commercialLicense": "Nein",
+      "studio_upscalesPerDay": "Unbegrenzt",
+      "studio_maxScale": "8x",
+      "studio_outputFormats": "PNG, JPEG, WebP",
+      "studio_batchProcessing": "Bis zu 50",
+      "studio_maxFileSize": "10 MB",
+      "studio_customDimensions": "Ja",
+      "studio_apiAccess": "Ja",
+      "studio_commercialLicense": "Ja"
+    },
+    "faq": {
+      "switch": {
+        "question": "Kann ich den Tarif wechseln?",
+        "answer": "Ja, Sie koennen jederzeit upgraden oder downgraden. Aenderungen treten zu Beginn Ihres naechsten Abrechnungszeitraums in Kraft."
+      },
+      "refund": {
+        "question": "Bieten Sie Rueckerstattungen an?",
+        "answer": "Ja. Wenn Sie innerhalb der ersten 7 Tage nicht zufrieden sind, kontaktieren Sie uns fuer eine vollstaendige Rueckerstattung."
+      },
+      "cancel": {
+        "question": "Kann ich jederzeit kuendigen?",
+        "answer": "Selbstverstaendlich. Kuendigen Sie jederzeit ueber Ihr Dashboard. Sie behalten den Zugang bis zum Ende Ihres Abrechnungszeitraums."
+      }
+    }
+  },
+  "faq": {
+    "sectionLabel": "Fragen",
+    "title": "Haeufig gestellte Fragen",
+    "items": [
+      {
+        "question": "Wie skaliert Uplocal Bilder ohne Server hoch?",
+        "answer": "Uplocal verwendet Real-ESRGAN, ein KI Modell zur Bildvergroesserung, kompiliert zu WebAssembly. Das bedeutet, dass das KI Modell direkt in Ihrem Browser auf Ihrem eigenen Geraet ausgefuehrt wird. Ihre Bilder verlassen niemals Ihren Computer."
+      },
+      {
+        "question": "Gibt es eine Dateigroessenbeschraenkung?",
+        "answer": "Kostenlose Nutzer koennen Bilder bis zu 5 MB hochskalieren. Pro und Studio Nutzer koennen Bilder bis zu 10 MB verarbeiten. Fuer die besten Ergebnisse bei sehr grossen Bildern empfehlen wir, mit Bildern unter 4000x4000 Pixeln zu beginnen."
+      },
+      {
+        "question": "Welche Bildformate werden unterstuetzt?",
+        "answer": "Uplocal akzeptiert PNG, JPEG, WebP und BMP als Eingabe. Die Ausgabe kann als PNG, JPEG oder WebP mit einstellbaren Qualitaetsoptionen gespeichert werden."
+      },
+      {
+        "question": "Wie lange dauert das Hochskalieren?",
+        "answer": "Die Verarbeitungszeit haengt von der Bildgroesse und Ihrem Geraet ab. Ein typisches 1080p Bild, das auf 2x hochskaliert wird, dauert 5 bis 15 Sekunden auf einem modernen Laptop. 4x und 8x Skalierungen dauern proportional laenger."
+      },
+      {
+        "question": "Kann ich mein Abonnement kuendigen?",
+        "answer": "Ja, Sie koennen jederzeit ueber Ihr Dashboard kuendigen. Sie behalten den Zugang zu den Funktionen Ihres Tarifs bis zum Ende Ihres aktuellen Abrechnungszeitraums."
+      },
+      {
+        "question": "Funktioniert es auf Mobilgeraeten?",
+        "answer": "Uplocal funktioniert in mobilen Browsern, die WebAssembly unterstuetzen, darunter Chrome und Safari auf iOS und Android. Die Leistung variiert je nach den Faehigkeiten Ihres Geraets."
+      }
+    ],
+    "seeAll": "Alle Fragen ansehen"
+  },
+  "about": {
+    "sectionLabel": "Ueber Uplocal",
+    "title": "KI Bildvergroesserung, die Ihre Privatsphaere respektiert",
+    "intro": "Uplocal basiert auf einem einfachen Prinzip: Ihre Bilder gehoeren Ihnen. Die meisten Online Hochskalierungsdienste verlangen, dass Sie Ihre Dateien auf entfernte Server hochladen, wo sie verarbeitet, gespeichert und manchmal ohne Ihr Wissen verwendet werden. Wir haben einen grundlegend anderen Ansatz gewaehlt. Uplocal verarbeitet jeden einzelnen Pixel auf Ihrem Geraet. Ihre Bilder verlassen niemals Ihren Browser. Kein Server sieht jemals Ihre Dateien.",
+    "howTitle": "So funktioniert es",
+    "howContent": "Uplocal verwendet ESRGAN (Enhanced Super Resolution Generative Adversarial Network), ein KI Modell, das speziell darauf trainiert ist, die Bildaufloesung zu erhoehen und dabei Details zu bewahren und Artefakte zu reduzieren. Das Modell laeuft ueber TensorFlow.js direkt in Ihrem Browser und nutzt die GPU Ihres Geraets durch WebGL oder WebGPU Beschleunigung. Wenn Sie ein Bild ablegen, wird das KI Modell einmal geladen und lokal zwischengespeichert. Ihr Bild wird dann in Kacheln verarbeitet, um den Speicher effizient zu nutzen. Das hochskalierte Ergebnis wird zusammengesetzt und zum Download bereitgestellt, alles ohne dass ein einziges Byte Ihr Geraet verlaesst.",
+    "whyTitle": "Warum lokale Verarbeitung",
+    "whyContent": "Serverbasierte Hochskalierungsdienste uebertragen Ihre Bilder ueber das Internet an entfernte Rechenzentren. Das bringt Risiken fuer die Privatsphaere, Latenz, Bandbreitenkosten und Abhaengigkeit von der Verfuegbarkeit Dritter mit sich. Mit Uplocal findet die Berechnung dort statt, wo die Daten bereits sind: auf Ihrem Geraet. Das bedeutet, das Werkzeug funktioniert offline nach dem ersten Laden des Modells, es gibt keine Upload Warteschlangen, und Ihre Bilder bleiben 100% privat. Es bedeutet auch null Serverkosten fuer die Verarbeitung, was uns ermoeglicht, ein grosszuegiges kostenloses Angebot bereitzustellen.",
+    "techTitle": "Die Technologie",
+    "techContent": "TensorFlow.js ermoeglicht die Ausfuehrung trainierter neuronaler Netze mit nahezu nativer Geschwindigkeit in modernen Browsern. Uplocal nutzt WebGL und WebGPU Backends fuer GPU beschleunigte Inferenz. Bilder werden in ueberlappenden Kacheln verarbeitet (konfigurierbare Kachelgroesse je nach Tarif) und nahtlos zusammengesetzt. Die KI Modellgewichte werden bei der ersten Nutzung heruntergeladen und im Browserspeicher fuer sofortiges spaeteres Laden zwischengespeichert. Ausgabeformate umfassen PNG, JPEG und WebP mit einstellbarer Qualitaet. Pro und Studio Nutzer profitieren von groesseren Verarbeitungskacheln fuer schnellere Inferenz.",
+    "companyTitle": "Entwickelt von HiddenLab",
+    "companyContent": "Uplocal wird von HiddenLab entwickelt, einem franzoesischen Softwarestudio, das sich auf die Entwicklung datenschutzorientierter Werkzeuge spezialisiert hat. Wir glauben, dass leistungsstarke Technologie nicht erfordern sollte, dass Sie Ihre Daten opfern. Wenn Sie Fragen, Feedback oder den Wunsch haben, uns zu kontaktieren, schreiben Sie uns an contact@metalya.fr."
+  },
+  "legal": {
+    "privacy": {
+      "title": "Datenschutzerklaerung",
+      "lastUpdated": "Zuletzt aktualisiert"
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen",
+      "lastUpdated": "Zuletzt aktualisiert"
+    }
+  },
+  "footer": {
+    "description": "KI Bildvergroesserung, 100% in Ihrem Browser. Ihre Dateien verlassen niemals Ihr Geraet.",
+    "product": "Produkt",
+    "company": "Unternehmen",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutzerklaerung",
+    "terms": "Nutzungsbedingungen",
+    "copyright": "Uplocal. Alle Rechte vorbehalten.",
+    "madeBy": "Erstellt von"
+  },
+  "auth": {
+    "signinTitle": "Willkommen zurueck",
+    "signupTitle": "Konto erstellen",
+    "google": "Google",
+    "noAccount": "Noch kein Konto?",
+    "hasAccount": "Bereits ein Konto?",
+    "signupLink": "Konto erstellen",
+    "signinLink": "Anmelden",
+    "emailSent": "Pruefen Sie Ihre E Mails fuer einen Anmeldelink.",
+    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Willkommen zurueck",
+    "usage": "Nutzung diesen Monat",
+    "history": "Letzte Hochskalierungen",
+    "plan": "Aktueller Tarif",
+    "upgrade": "Tarif upgraden",
+    "manageBilling": "Abrechnung verwalten",
+    "settings": "Einstellungen",
+    "settingsTitle": "Kontoeinstellungen",
+    "historyTitle": "Hochskalierungsverlauf",
+    "noHistory": "Noch keine Hochskalierungen. Probieren Sie Ihre erste aus.",
+    "upscaleNow": "Ein Bild hochskalieren",
+    "totalUpscales": "Hochskalierungen gesamt",
+    "avgTime": "Durchschnittliche Zeit",
+    "defaultScale": "Standardskalierung",
+    "defaultFormat": "Standardformat",
+    "defaultQuality": "Standardqualitaet",
+    "theme": "Design",
+    "language": "Sprache",
+    "save": "Aenderungen speichern",
+    "saved": "Einstellungen gespeichert."
+  },
+  "common": {
+    "loading": "Wird geladen",
+    "error": "Etwas ist schiefgelaufen",
+    "retry": "Erneut versuchen",
+    "back": "Zurueck",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "backHome": "Zurueck zur Startseite"
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "title": "Uplocal: AI画像アップスケーラー、100%プライベート、ブラウザで動作",
+    "description": "AIを使ってブラウザ上で直接画像を最大8倍に拡大。アップロード不要、サーバー不要、完全なプライバシー。ファイルがデバイスから出ることはありません。",
+    "keywords": "画像 高画質化, AI 画像 アップスケール, 画像 解像度 上げる, 写真 高画質, 画像拡大 ブラウザ"
+  },
+  "pricingMeta": {
+    "title": "料金プラン | Uplocal",
+    "description": "AI画像アップスケーリングのシンプルで明確な料金体系。無料プランあり。プロフェッショナル向けProおよびStudioプラン。"
+  },
+  "upscaleMeta": {
+    "title": "画像をアップスケール | Uplocal",
+    "description": "AIで画像を最大8倍にアップスケール。100%プライベート、ブラウザ上で動作します。"
+  },
+  "faqMeta": {
+    "title": "よくある質問 | Uplocal",
+    "description": "Uplocal AI画像アップスケーラーについてのよくある質問。仕組み、対応フォーマット、料金について。"
+  },
+  "aboutMeta": {
+    "title": "Uplocal について | Uplocal",
+    "description": "HiddenLabが開発した、プライバシーを最優先にしたAI画像アップスケーラー Uplocal について。100%ブラウザ内処理。"
+  },
+  "nav": {
+    "upscale": "アップスケール",
+    "pricing": "料金",
+    "about": "紹介",
+    "faq": "よくある質問",
+    "signin": "ログイン",
+    "signup": "はじめる",
+    "dashboard": "ダッシュボード",
+    "signout": "ログアウト",
+    "themeLight": "ライト",
+    "themeDark": "ダーク"
+  },
+  "hero": {
+    "title": "AIで画像をアップスケール。すべてブラウザ上で。",
+    "subtitle": "画像がデバイスの外に出ることはありません。UpLocalはWebAssemblyを使い、ブラウザ内で完全に動作します。サーバーなし、アップロードなし、プライバシーに一切の妥協なし。",
+    "cta": "今すぐ画像をアップスケール",
+    "secondaryCta": "料金を見る"
+  },
+  "trust": {
+    "browser": "100%ブラウザ処理",
+    "noUpload": "画像のアップロード不要"
+  },
+  "howItWorks": {
+    "sectionLabel": "使い方",
+    "step1": {
+      "number": "01",
+      "title": "画像をドロップ",
+      "description": "画像をドラッグ&ドロップするか、クリックして選択。PNG、JPEG、WebP、BMP形式に対応しています。"
+    },
+    "step2": {
+      "number": "02",
+      "title": "倍率を選択",
+      "description": "2倍、4倍、8倍から選択。出力形式と画質レベルも指定できます。"
+    },
+    "step3": {
+      "number": "03",
+      "title": "すぐにダウンロード",
+      "description": "アップスケールされた画像は数秒で完成。初回はアカウント不要で直接ダウンロードできます。"
+    }
+  },
+  "features": {
+    "sectionLabel": "Uplocal を選ぶ理由",
+    "privacy": {
+      "title": "100%プライベート",
+      "description": "画像はすべてブラウザ内でローカル処理されます。アップロードも保存も一切ありません。誰もあなたのファイルを見ることはできません。"
+    },
+    "quality": {
+      "title": "AIによる高画質化",
+      "description": "WebAssemblyで動作するReal-ESRGANニューラルネットワークが、アーティファクトの除去とディテールの強化を含むプロ品質のアップスケーリングを実現します。"
+    },
+    "speed": {
+      "title": "即座に結果を表示",
+      "description": "サーバーの待ち時間はありません。あなたのハードウェア上で即座に処理が開始されます。ほとんどの画像は10秒以内にアップスケール完了します。"
+    },
+    "formats": {
+      "title": "全フォーマット対応",
+      "description": "PNG、JPEG、WebP、BMPをアップロード可能。お好みの形式で、画質設定を調整してダウンロードできます。"
+    }
+  },
+  "upscaler": {
+    "title": "画像をアップスケール",
+    "dropzone": "ここに画像をドロップ、またはクリックして選択",
+    "dropzoneFormats": "PNG, JPEG, WebP, BMP（最大10MB）",
+    "scaleLabel": "倍率",
+    "formatLabel": "出力形式",
+    "qualityLabel": "画質",
+    "upscaleButton": "アップスケール",
+    "processing": "画像を処理中",
+    "download": "アップスケール画像をダウンロード",
+    "compare": "処理前後を比較",
+    "newImage": "別の画像をアップスケール",
+    "freeLimit": "本日の無料アップスケール枠を使い切りました",
+    "upgradePrompt": "アップグレードして4倍、8倍の無制限アップスケーリングを利用",
+    "batchTitle": "一括処理",
+    "batchDescription": "複数の画像をドラッグして一度にまとめて処理",
+    "originalSize": "オリジナル",
+    "upscaledSize": "アップスケール後",
+    "processingTime": "処理時間",
+    "fileSize": "ファイルサイズ",
+    "loadingModel": "AIモデルを読み込み中",
+    "errorUnsupported": "このファイル形式には対応していません。PNG、JPEG、WebP、またはBMPをご利用ください。",
+    "errorTooLarge": "このファイルは大きすぎます。最大サイズ:",
+    "errorProcessing": "問題が発生しました。もう一度お試しください。",
+    "errorWasm": "お使いのブラウザはWebAssemblyに対応していません。Chrome、Firefox、Safari、Edgeなどの最新ブラウザをご利用ください。",
+    "offline": "オフラインです。アップスケーリングは引き続き動作します。",
+    "tryIt": "試してみる",
+    "pro": "Pro",
+    "studio": "Studio",
+    "customDimensions": "Custom dimensions"
+  },
+  "pricing": {
+    "sectionLabel": "料金",
+    "title": "シンプルで明確な料金体系",
+    "subtitle": "無料で始めて、必要に応じてアップグレード。",
+    "free": {
+      "name": "無料",
+      "price": "0",
+      "period": "永久",
+      "features": [
+        "1日1回のアップスケール",
+        "最大2倍",
+        "PNGとJPEG出力",
+        "標準処理"
+      ],
+      "cta": "無料ではじめる"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "人気No.1",
+      "priceMonthly": "9",
+      "priceYearly": "79",
+      "period": "月",
+      "periodYearly": "年",
+      "features": [
+        "無制限のアップスケール",
+        "最大4倍",
+        "全出力形式対応",
+        "最大10枚の一括処理",
+        "モデルの優先読み込み"
+      ],
+      "cta": "Proを始める"
+    },
+    "studio": {
+      "name": "Studio",
+      "priceMonthly": "24",
+      "priceYearly": "199",
+      "period": "月",
+      "periodYearly": "年",
+      "features": [
+        "Proの全機能を含む",
+        "最大8倍",
+        "最大50枚の一括処理",
+        "カスタム出力サイズ",
+        "APIアクセス",
+        "商用ライセンス"
+      ],
+      "cta": "Studioを始める"
+    },
+    "toggle": {
+      "monthly": "月額",
+      "yearly": "年額",
+      "save": "27%お得"
+    },
+    "currency": "$",
+    "comparison": {
+      "title": "機能比較",
+      "feature": "機能",
+      "upscalesPerDay": "1日のアップスケール回数",
+      "maxScale": "最大倍率",
+      "outputFormats": "出力形式",
+      "batchProcessing": "一括処理",
+      "maxFileSize": "最大ファイルサイズ",
+      "customDimensions": "カスタムサイズ",
+      "apiAccess": "APIアクセス",
+      "commercialLicense": "商用ライセンス",
+      "free_upscalesPerDay": "1",
+      "free_maxScale": "2x",
+      "free_outputFormats": "PNG, JPEG",
+      "free_batchProcessing": "なし",
+      "free_maxFileSize": "5MB",
+      "free_customDimensions": "なし",
+      "free_apiAccess": "なし",
+      "free_commercialLicense": "なし",
+      "pro_upscalesPerDay": "無制限",
+      "pro_maxScale": "4x",
+      "pro_outputFormats": "PNG, JPEG, WebP",
+      "pro_batchProcessing": "最大10枚",
+      "pro_maxFileSize": "10MB",
+      "pro_customDimensions": "なし",
+      "pro_apiAccess": "なし",
+      "pro_commercialLicense": "なし",
+      "studio_upscalesPerDay": "無制限",
+      "studio_maxScale": "8x",
+      "studio_outputFormats": "PNG, JPEG, WebP",
+      "studio_batchProcessing": "最大50枚",
+      "studio_maxFileSize": "10MB",
+      "studio_customDimensions": "あり",
+      "studio_apiAccess": "あり",
+      "studio_commercialLicense": "あり"
+    },
+    "faq": {
+      "switch": {
+        "question": "プランの変更はできますか?",
+        "answer": "はい、いつでもアップグレードまたはダウングレードが可能です。変更は次の請求期間の開始時に適用されます。"
+      },
+      "refund": {
+        "question": "返金はありますか?",
+        "answer": "はい。最初の7日間以内にご満足いただけない場合は、お問い合わせいただければ全額返金いたします。"
+      },
+      "cancel": {
+        "question": "いつでもキャンセルできますか?",
+        "answer": "もちろんです。ダッシュボードからいつでもキャンセル可能です。現在の請求期間の終了まで引き続きご利用いただけます。"
+      }
+    }
+  },
+  "faq": {
+    "sectionLabel": "質問",
+    "title": "よくある質問",
+    "items": [
+      {
+        "question": "Uplocal はサーバーなしでどうやって画像をアップスケールするのですか?",
+        "answer": "UplocaはReal-ESRGANというAIアップスケーリングモデルをWebAssemblyにコンパイルして使用しています。つまり、AIモデルはブラウザ内で、あなた自身のデバイス上で直接動作します。画像がパソコンの外に出ることは一切ありません。"
+      },
+      {
+        "question": "ファイルサイズに制限はありますか?",
+        "answer": "無料ユーザーは最大5MBの画像をアップスケールできます。ProおよびStudioユーザーは最大10MBまで処理可能です。非常に大きな画像の場合は、4000x4000ピクセル以下の画像から始めることをお勧めします。"
+      },
+      {
+        "question": "対応している画像形式は何ですか?",
+        "answer": "Uplocal は入力としてPNG、JPEG、WebP、BMPに対応しています。出力はPNG、JPEG、WebPから選択でき、画質設定も調整可能です。"
+      },
+      {
+        "question": "アップスケールにはどのくらい時間がかかりますか?",
+        "answer": "処理時間は画像サイズとデバイスによって異なります。一般的な1080p画像を2倍にアップスケールする場合、最新のノートパソコンで5秒から15秒程度です。4倍と8倍はそれに比例して長くなります。"
+      },
+      {
+        "question": "サブスクリプションはキャンセルできますか?",
+        "answer": "はい、ダッシュボードからいつでもキャンセルできます。現在の請求期間の終了まで、プランの全機能を引き続きご利用いただけます。"
+      },
+      {
+        "question": "モバイルでも使えますか?",
+        "answer": "Uplocal はWebAssemblyに対応したモバイルブラウザで動作します。iOSとAndroidのChromeおよびSafariに対応しています。パフォーマンスはデバイスの性能によって異なります。"
+      }
+    ],
+    "seeAll": "すべての質問を見る"
+  },
+  "about": {
+    "sectionLabel": "Uplocal について",
+    "title": "プライバシーを尊重するAI画像アップスケーリング",
+    "intro": "Uplocal はシンプルな原則に基づいて作られました。あなたの画像はあなたのものです。ほとんどのオンラインアップスケーリングツールは、ファイルをリモートサーバーにアップロードすることを求めます。そこでファイルは処理、保存され、時にはあなたの知らないうちに使用されます。私たちは根本的に異なるアプローチを採用しました。Uplocal はすべてのピクセルをあなたのデバイス上で処理します。画像がブラウザの外に出ることは決してありません。いかなるサーバーもあなたのファイルを見ることはありません。",
+    "howTitle": "仕組み",
+    "howContent": "Uplocal は ESRGAN（Enhanced Super Resolution Generative Adversarial Network）を使用しています。これは、ディテールを保持しアーティファクトを低減しながら画像の解像度を向上させるために特別に訓練されたAIモデルです。このモデルは TensorFlow.js を介してブラウザ内で直接動作し、WebGL または WebGPU アクセラレーションを通じてデバイスのGPUを活用します。画像をドロップすると、AIモデルが一度だけ読み込まれローカルにキャッシュされます。画像はメモリを効率的に管理するためにタイル単位で処理されます。アップスケールされた結果は組み立てられダウンロード可能になります。この一連の処理で、あなたのデバイスから一バイトたりともデータが外部に送信されることはありません。",
+    "whyTitle": "ローカル処理の理由",
+    "whyContent": "サーバーベースのアップスケーリングサービスは、あなたの画像をインターネット経由でリモートデータセンターに送信します。これにより、プライバシーリスク、レイテンシ、帯域幅コスト、サードパーティの可用性への依存が生じます。Uplocal では、計算処理はデータがすでに存在する場所、つまりあなたのマシン上で行われます。これにより、最初のモデル読み込み後はオフラインでも動作し、アップロードの待ち行列はなく、画像は100%プライベートに保たれます。また、処理にかかるサーバーコストがゼロであるため、充実した無料プランを提供することが可能です。",
+    "techTitle": "技術について",
+    "techContent": "TensorFlow.js により、訓練済みのニューラルネットワークを最新のブラウザ上でネイティブに近い速度で実行できます。Uplocal は WebGL および WebGPU バックエンドを活用し、GPU アクセラレーションによる推論を行います。画像はオーバーラップするタイルで処理され（プランに応じてパッチサイズを設定可能）、シームレスに再構成されます。AIモデルの重みは初回使用時にダウンロードされ、ブラウザストレージにキャッシュされるため、次回以降は即座に読み込まれます。出力形式はPNG、JPEG、WebPに対応し、画質の調整が可能です。ProおよびStudioユーザーは、より大きな処理タイルを使用でき、推論がより高速になります。",
+    "companyTitle": "HiddenLab が開発",
+    "companyContent": "Uplocal は、プライバシーを最優先にしたツールの開発に注力するフランスのソフトウェアスタジオ、HiddenLab によって開発されています。私たちは、強力なテクノロジーがデータの犠牲を求めるべきではないと信じています。ご質問、フィードバック、お問い合わせは contact@metalya.fr までご連絡ください。"
+  },
+  "legal": {
+    "privacy": {
+      "title": "プライバシーポリシー",
+      "lastUpdated": "最終更新日"
+    },
+    "terms": {
+      "title": "利用規約",
+      "lastUpdated": "最終更新日"
+    }
+  },
+  "footer": {
+    "description": "AI画像アップスケーリング、100%ブラウザ内で完結。ファイルがデバイスの外に出ることはありません。",
+    "product": "プロダクト",
+    "company": "会社情報",
+    "legal": "法的情報",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyright": "Uplocal. All rights reserved.",
+    "madeBy": "制作"
+  },
+  "auth": {
+    "signinTitle": "おかえりなさい",
+    "signupTitle": "アカウントを作成",
+    "google": "Google",
+    "noAccount": "アカウントをお持ちでないですか?",
+    "hasAccount": "すでにアカウントをお持ちですか?",
+    "signupLink": "アカウントを作成",
+    "signinLink": "ログイン",
+    "emailSent": "ログインリンクをメールで送信しました。ご確認ください。",
+    "error": "問題が発生しました。もう一度お試しください。"
+  },
+  "dashboard": {
+    "title": "ダッシュボード",
+    "welcome": "おかえりなさい",
+    "usage": "今月の使用状況",
+    "history": "最近のアップスケール",
+    "plan": "現在のプラン",
+    "upgrade": "プランをアップグレード",
+    "manageBilling": "請求管理",
+    "settings": "設定",
+    "settingsTitle": "アカウント設定",
+    "historyTitle": "アップスケール履歴",
+    "noHistory": "まだアップスケールの記録がありません。最初の一枚を試してみましょう。",
+    "upscaleNow": "画像をアップスケール",
+    "totalUpscales": "アップスケール合計",
+    "avgTime": "平均処理時間",
+    "defaultScale": "デフォルト倍率",
+    "defaultFormat": "デフォルト形式",
+    "defaultQuality": "デフォルト画質",
+    "theme": "テーマ",
+    "language": "言語",
+    "save": "変更を保存",
+    "saved": "設定を保存しました。"
+  },
+  "common": {
+    "loading": "読み込み中",
+    "error": "問題が発生しました",
+    "retry": "もう一度試す",
+    "back": "戻る",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しないか、移動されました。",
+    "backHome": "ホームに戻る"
+  }
+}

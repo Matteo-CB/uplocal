@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "title": "Uplocal: AI Image Upscaler, 100% Private, Runs in Your Browser",
+    "description": "Upscale your images up to 8x using AI directly in your browser. No upload, no server, total privacy. Your files never leave your device.",
+    "keywords": "image upscaler, AI image enhancer, upscale image online, increase image resolution, enhance photo quality, private image upscaler, browser image upscaler"
+  },
+  "pricingMeta": {
+    "title": "Pricing | Uplocal",
+    "description": "Simple, transparent pricing for AI image upscaling. Free tier available. Pro and Studio plans for professionals."
+  },
+  "upscaleMeta": {
+    "title": "Upscale Your Image | Uplocal",
+    "description": "Upload and upscale your image up to 8x with AI. 100% private, runs in your browser."
+  },
+  "faqMeta": {
+    "title": "FAQ | Uplocal",
+    "description": "Frequently asked questions about Uplocal AI image upscaler. How it works, supported formats, pricing."
+  },
+  "aboutMeta": {
+    "title": "About | Uplocal",
+    "description": "Learn about Uplocal, the privacy first AI image upscaler built by HiddenLab. 100% browser based processing."
+  },
+  "nav": {
+    "upscale": "Upscale",
+    "pricing": "Pricing",
+    "about": "About",
+    "faq": "FAQ",
+    "signin": "Sign in",
+    "signup": "Get started",
+    "dashboard": "Dashboard",
+    "signout": "Sign out",
+    "themeLight": "Light",
+    "themeDark": "Dark"
+  },
+  "hero": {
+    "title": "Upscale any image with AI. Right in your browser.",
+    "subtitle": "Your images never leave your device. Uplocal runs entirely in your browser using WebAssembly. No server, no upload, no compromise on privacy.",
+    "cta": "Upscale an image now",
+    "secondaryCta": "See pricing"
+  },
+  "trust": {
+    "browser": "100% browser based",
+    "noUpload": "No image upload"
+  },
+  "howItWorks": {
+    "sectionLabel": "How It Works",
+    "step1": {
+      "number": "01",
+      "title": "Drop Your Image",
+      "description": "Drag and drop any image or click to browse. We accept PNG, JPEG, WebP, and BMP files."
+    },
+    "step2": {
+      "number": "02",
+      "title": "Choose Your Scale",
+      "description": "Select 2x, 4x, or 8x upscaling. Pick your output format and quality level."
+    },
+    "step3": {
+      "number": "03",
+      "title": "Download Instantly",
+      "description": "Your upscaled image is ready in seconds. Download it directly, no account needed for your first upscale."
+    }
+  },
+  "features": {
+    "sectionLabel": "Why Uplocal",
+    "privacy": {
+      "title": "100% Private",
+      "description": "Your images are processed locally in your browser. Nothing is uploaded. Nothing is stored. Nobody sees your files."
+    },
+    "quality": {
+      "title": "AI Powered Quality",
+      "description": "Real-ESRGAN neural network running via WebAssembly delivers professional grade upscaling with artifact removal and detail enhancement."
+    },
+    "speed": {
+      "title": "Instant Results",
+      "description": "No waiting in server queues. Processing starts immediately on your hardware. Most images upscale in under 10 seconds."
+    },
+    "formats": {
+      "title": "All Formats Supported",
+      "description": "Upload PNG, JPEG, WebP, or BMP. Download in your preferred format with adjustable quality settings."
+    }
+  },
+  "upscaler": {
+    "title": "Upscale Your Image",
+    "dropzone": "Drop your image here or click to browse",
+    "dropzoneFormats": "PNG, JPEG, WebP, BMP up to 10MB",
+    "scaleLabel": "Scale",
+    "formatLabel": "Output format",
+    "qualityLabel": "Quality",
+    "upscaleButton": "Upscale",
+    "processing": "Processing your image",
+    "download": "Download upscaled image",
+    "compare": "Compare before and after",
+    "newImage": "Upscale another image",
+    "freeLimit": "You have used your free upscale for today",
+    "upgradePrompt": "Upgrade to unlock unlimited upscaling at 4x and 8x",
+    "batchTitle": "Batch Processing",
+    "batchDescription": "Drag multiple images to process them all at once",
+    "originalSize": "Original",
+    "upscaledSize": "Upscaled",
+    "processingTime": "Processing time",
+    "fileSize": "File size",
+    "loadingModel": "Loading AI model",
+    "errorUnsupported": "This file format is not supported. Please use PNG, JPEG, WebP, or BMP.",
+    "errorTooLarge": "This file is too large. Maximum size is",
+    "errorProcessing": "Something went wrong. Please try again.",
+    "errorWasm": "Your browser does not support WebAssembly. Please use a modern browser like Chrome, Firefox, Safari, or Edge.",
+    "offline": "You are offline. Upscaling still works.",
+    "tryIt": "Try it now",
+    "pro": "Pro",
+    "studio": "Studio",
+    "customDimensions": "Custom dimensions"
+  },
+  "pricing": {
+    "sectionLabel": "Pricing",
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Start free, upgrade when you need more power.",
+    "free": {
+      "name": "Free",
+      "price": "0",
+      "period": "forever",
+      "features": [
+        "1 upscale per day",
+        "2x maximum scale",
+        "PNG and JPEG output",
+        "Standard processing"
+      ],
+      "cta": "Get started free"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "Most popular",
+      "priceMonthly": "9",
+      "priceYearly": "79",
+      "period": "month",
+      "periodYearly": "year",
+      "features": [
+        "Unlimited upscales",
+        "Up to 4x scale",
+        "All output formats",
+        "Batch processing up to 10 images",
+        "Priority model loading"
+      ],
+      "cta": "Start Pro"
+    },
+    "studio": {
+      "name": "Studio",
+      "priceMonthly": "24",
+      "priceYearly": "199",
+      "period": "month",
+      "periodYearly": "year",
+      "features": [
+        "Everything in Pro",
+        "Up to 8x scale",
+        "Batch processing up to 50 images",
+        "Custom output dimensions",
+        "API access",
+        "Commercial license"
+      ],
+      "cta": "Start Studio"
+    },
+    "toggle": {
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "save": "Save 27%"
+    },
+    "currency": "$",
+    "comparison": {
+      "title": "Feature Comparison",
+      "feature": "Feature",
+      "upscalesPerDay": "Upscales per day",
+      "maxScale": "Maximum scale",
+      "outputFormats": "Output formats",
+      "batchProcessing": "Batch processing",
+      "maxFileSize": "Maximum file size",
+      "customDimensions": "Custom dimensions",
+      "apiAccess": "API access",
+      "commercialLicense": "Commercial license",
+      "free_upscalesPerDay": "1",
+      "free_maxScale": "2x",
+      "free_outputFormats": "PNG, JPEG",
+      "free_batchProcessing": "No",
+      "free_maxFileSize": "5MB",
+      "free_customDimensions": "No",
+      "free_apiAccess": "No",
+      "free_commercialLicense": "No",
+      "pro_upscalesPerDay": "Unlimited",
+      "pro_maxScale": "4x",
+      "pro_outputFormats": "PNG, JPEG, WebP",
+      "pro_batchProcessing": "Up to 10",
+      "pro_maxFileSize": "10MB",
+      "pro_customDimensions": "No",
+      "pro_apiAccess": "No",
+      "pro_commercialLicense": "No",
+      "studio_upscalesPerDay": "Unlimited",
+      "studio_maxScale": "8x",
+      "studio_outputFormats": "PNG, JPEG, WebP",
+      "studio_batchProcessing": "Up to 50",
+      "studio_maxFileSize": "10MB",
+      "studio_customDimensions": "Yes",
+      "studio_apiAccess": "Yes",
+      "studio_commercialLicense": "Yes"
+    },
+    "faq": {
+      "switch": {
+        "question": "Can I switch plans?",
+        "answer": "Yes, you can upgrade or downgrade at any time. Changes take effect at the start of your next billing period."
+      },
+      "refund": {
+        "question": "Do you offer refunds?",
+        "answer": "Yes. If you are not satisfied within the first 7 days, contact us for a full refund."
+      },
+      "cancel": {
+        "question": "Can I cancel anytime?",
+        "answer": "Absolutely. Cancel from your dashboard at any time. You keep access until the end of your billing period."
+      }
+    }
+  },
+  "faq": {
+    "sectionLabel": "Questions",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How does Uplocal upscale images without a server?",
+        "answer": "Uplocal uses Real-ESRGAN, an AI upscaling model, compiled to WebAssembly. This means the AI model runs directly in your browser, on your own device. Your images never leave your computer."
+      },
+      {
+        "question": "Is there a file size limit?",
+        "answer": "Free users can upscale images up to 5MB. Pro and Studio users can process images up to 10MB. For best results with very large images, we recommend starting with images under 4000x4000 pixels."
+      },
+      {
+        "question": "What image formats are supported?",
+        "answer": "Uplocal accepts PNG, JPEG, WebP, and BMP as input. Output can be saved as PNG, JPEG, or WebP with adjustable quality settings."
+      },
+      {
+        "question": "How long does upscaling take?",
+        "answer": "Processing time depends on the image size and your device. A typical 1080p image upscaled to 2x takes 5 to 15 seconds on a modern laptop. 4x and 8x scales take proportionally longer."
+      },
+      {
+        "question": "Can I cancel my subscription?",
+        "answer": "Yes, you can cancel anytime from your dashboard. You will retain access to your plan features until the end of your current billing period."
+      },
+      {
+        "question": "Does it work on mobile?",
+        "answer": "Uplocal works on mobile browsers that support WebAssembly, including Chrome and Safari on iOS and Android. Performance will vary based on your device capabilities."
+      }
+    ],
+    "seeAll": "See all questions"
+  },
+  "about": {
+    "sectionLabel": "About Uplocal",
+    "title": "AI Image Upscaling That Respects Your Privacy",
+    "intro": "Uplocal was built on a simple principle: your images belong to you. Most online upscaling tools require you to upload your files to remote servers, where they are processed, stored, and sometimes used without your knowledge. We took a fundamentally different approach. Uplocal processes every single pixel on your device. Your images never leave your browser. No server ever sees your files.",
+    "howTitle": "How It Works",
+    "howContent": "Uplocal uses ESRGAN (Enhanced Super Resolution Generative Adversarial Network), an AI model specifically trained to increase image resolution while preserving detail and reducing artifacts. The model runs via TensorFlow.js directly in your browser, using your device's GPU through WebGL or WebGPU acceleration. When you drop an image, the AI model is loaded once and cached locally. Your image is then processed in tiles to manage memory efficiently. The upscaled result is assembled and made available for download, all without a single byte leaving your device.",
+    "whyTitle": "Why Local Processing",
+    "whyContent": "Server based upscaling services transmit your images over the internet to remote data centers. This introduces privacy risks, latency, bandwidth costs, and dependency on third party availability. With Uplocal, the computation happens where the data already lives: on your machine. This means the tool works offline after the first model load, there are no upload queues, and your images remain 100% private. It also means zero server cost for processing, which allows us to offer a generous free tier.",
+    "techTitle": "The Technology",
+    "techContent": "TensorFlow.js enables running trained neural networks at near native speed in modern browsers. Uplocal leverages WebGL and WebGPU backends for GPU accelerated inference. Images are processed in overlapping tiles (configurable patch size based on your plan) and reassembled seamlessly. The AI model weights are downloaded on first use and cached in your browser storage for instant subsequent loads. Output formats include PNG, JPEG, and WebP with adjustable quality. Pro and Studio users benefit from larger processing tiles for faster inference.",
+    "companyTitle": "Built by HiddenLab",
+    "companyContent": "Uplocal is developed by HiddenLab, a French software studio focused on building privacy first tools. We believe powerful technology should not require you to sacrifice your data. If you have questions, feedback, or want to reach out, contact us at contact@metalya.fr."
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated"
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last updated"
+    }
+  },
+  "footer": {
+    "description": "AI image upscaling, 100% in your browser. Your files never leave your device.",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "Uplocal. All rights reserved.",
+    "madeBy": "Created by"
+  },
+  "auth": {
+    "signinTitle": "Welcome Back",
+    "signupTitle": "Create Your Account",
+    "google": "Google",
+    "noAccount": "No account yet?",
+    "hasAccount": "Already have an account?",
+    "signupLink": "Create one",
+    "signinLink": "Sign in",
+    "emailSent": "Check your email for a sign in link.",
+    "error": "Something went wrong. Please try again."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back",
+    "usage": "Usage This Month",
+    "history": "Recent Upscales",
+    "plan": "Current Plan",
+    "upgrade": "Upgrade plan",
+    "manageBilling": "Manage billing",
+    "settings": "Settings",
+    "settingsTitle": "Account Settings",
+    "historyTitle": "Upscale History",
+    "noHistory": "No upscales yet. Try your first one.",
+    "upscaleNow": "Upscale an image",
+    "totalUpscales": "Total upscales",
+    "avgTime": "Average time",
+    "defaultScale": "Default scale",
+    "defaultFormat": "Default format",
+    "defaultQuality": "Default quality",
+    "theme": "Theme",
+    "language": "Language",
+    "save": "Save changes",
+    "saved": "Settings saved."
+  },
+  "common": {
+    "loading": "Loading",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "back": "Go back",
+    "notFound": "Page Not Found",
+    "notFoundDescription": "The page you are looking for does not exist or has been moved.",
+    "backHome": "Back to homepage"
+  }
+}

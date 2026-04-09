@@ -1,0 +1,106 @@
+UPLOCAL: CE QUE TU DOIS FAIRE MANUELLEMENT
+==========================================
+
+Le projet compile et est pret a tourner.
+Upscaling IA fonctionnel via UpscalerJS (TensorFlow.js + ESRGAN).
+Polices Satoshi installees.
+Images OG, logos, favicons generes.
+Auth = Google OAuth uniquement.
+Google Analytics pret (env var a remplir).
+Pages legales completes (Privacy Policy + Terms of Service).
+10 langues supportees.
+
+
+1. BASE DE DONNEES (MongoDB)
+----------------------------
+   a) Cree un cluster MongoDB Atlas (gratuit) : https://cloud.mongodb.com
+   b) Cree une base de donnees "uplocal"
+   c) Copie la connection string
+   d) Cree le fichier .env.local a la racine du projet :
+
+      DATABASE_URL=mongodb+srv://user:pass@cluster.mongodb.net/uplocal?retryWrites=true&w=majority
+
+   e) Execute : npx prisma db push
+
+
+2. AUTHENTIFICATION (Google OAuth)
+----------------------------------
+   a) Execute : npx auth secret
+      Ajoute dans .env.local : AUTH_SECRET=valeur_generee
+
+   b) Va sur https://console.cloud.google.com
+      Cree un projet, active "Google+ API"
+      Cree des credentials OAuth 2.0
+      Redirect URI en dev : http://localhost:3000/api/auth/callback/google
+      Redirect URI en prod : https://uplocal.app/api/auth/callback/google
+      Ajoute dans .env.local :
+        GOOGLE_CLIENT_ID=xxx
+        GOOGLE_CLIENT_SECRET=xxx
+
+
+3. GOOGLE ANALYTICS
+-------------------
+   a) Va sur https://analytics.google.com
+   b) Cree une propriete pour uplocal.app
+   c) Copie le Measurement ID (format G-XXXXXXXXXX)
+   d) Ajoute dans .env.local :
+      NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
+
+   Note : si la variable est vide ou absente, le script GA
+   ne sera pas injecte (pas d'impact sur les perfs).
+
+
+4. STRIPE (PAIEMENTS)
+---------------------
+   a) Cree un compte Stripe : https://stripe.com
+
+   b) Cree 2 produits dans le Dashboard :
+      "Pro" : $9/mois et $79/an
+      "Studio" : $24/mois et $199/an
+
+   c) Note les Price IDs (commencent par "price_")
+
+   d) Configure un Webhook :
+      URL : https://ton-domaine.com/api/stripe/webhook
+      Events :
+        checkout.session.completed
+        customer.subscription.updated
+        customer.subscription.deleted
+        invoice.payment_failed
+        invoice.payment_succeeded
+
+   e) Ajoute dans .env.local :
+      STRIPE_SECRET_KEY=sk_test_xxx
+      STRIPE_PUBLISHABLE_KEY=pk_test_xxx
+      STRIPE_WEBHOOK_SECRET=whsec_xxx
+      STRIPE_PRO_MONTHLY_PRICE_ID=price_xxx
+      STRIPE_PRO_YEARLY_PRICE_ID=price_xxx
+      STRIPE_STUDIO_MONTHLY_PRICE_ID=price_xxx
+      STRIPE_STUDIO_YEARLY_PRICE_ID=price_xxx
+
+
+POUR LANCER EN DEV
+==================
+   1. Copie .env.example vers .env.local et remplis les valeurs
+   2. pnpm install (deja fait)
+   3. npx prisma db push
+   4. pnpm dev
+   5. Ouvre http://localhost:3000/en
+
+
+RESUME .env.local
+=================
+DATABASE_URL=
+AUTH_SECRET=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+STRIPE_SECRET_KEY=
+STRIPE_PUBLISHABLE_KEY=
+STRIPE_WEBHOOK_SECRET=
+STRIPE_PRO_MONTHLY_PRICE_ID=
+STRIPE_PRO_YEARLY_PRICE_ID=
+STRIPE_STUDIO_MONTHLY_PRICE_ID=
+STRIPE_STUDIO_YEARLY_PRICE_ID=
+NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
+NEXT_PUBLIC_APP_URL=https://uplocal.app
+NEXT_PUBLIC_APP_NAME=Uplocal

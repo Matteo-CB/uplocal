@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "title": "Uplocal: Escalador de imagenes con IA, 100% privado, funciona en tu navegador",
+    "description": "Escala tus imagenes hasta 8x con IA directamente en tu navegador. Sin subir archivos, sin servidor, privacidad total. Tus archivos nunca salen de tu dispositivo.",
+    "keywords": "mejorar calidad imagen, aumentar resolucion imagen, escalador de imagenes IA, mejorar foto online, mejorar imagen sin subir"
+  },
+  "pricingMeta": {
+    "title": "Precios | Uplocal",
+    "description": "Precios simples y transparentes para el escalado de imagenes con IA. Plan gratuito disponible. Planes Pro y Studio para profesionales."
+  },
+  "upscaleMeta": {
+    "title": "Escala tu imagen | Uplocal",
+    "description": "Sube y escala tu imagen hasta 8x con IA. 100% privado, funciona en tu navegador."
+  },
+  "faqMeta": {
+    "title": "FAQ | Uplocal",
+    "description": "Preguntas frecuentes sobre el escalador de imagenes IA Uplocal. Como funciona, formatos compatibles, precios."
+  },
+  "aboutMeta": {
+    "title": "Acerca de | Uplocal",
+    "description": "Conoce Uplocal, el escalador de imagenes IA que prioriza la privacidad, creado por HiddenLab. Procesamiento 100% en el navegador."
+  },
+  "nav": {
+    "upscale": "Escalar",
+    "pricing": "Precios",
+    "about": "Acerca de",
+    "faq": "FAQ",
+    "signin": "Iniciar sesion",
+    "signup": "Empezar",
+    "dashboard": "Panel",
+    "signout": "Cerrar sesion",
+    "themeLight": "Claro",
+    "themeDark": "Oscuro"
+  },
+  "hero": {
+    "title": "Escala cualquier imagen con IA. Directamente en tu navegador.",
+    "subtitle": "Tus imagenes nunca salen de tu dispositivo. Uplocal funciona completamente en tu navegador con WebAssembly. Sin servidor, sin subir archivos, sin comprometer tu privacidad.",
+    "cta": "Escalar una imagen ahora",
+    "secondaryCta": "Ver precios"
+  },
+  "trust": {
+    "browser": "100% en el navegador",
+    "noUpload": "Sin subir imagenes"
+  },
+  "howItWorks": {
+    "sectionLabel": "Como funciona",
+    "step1": {
+      "number": "01",
+      "title": "Suelta tu imagen",
+      "description": "Arrastra y suelta cualquier imagen o haz clic para explorar. Aceptamos archivos PNG, JPEG, WebP y BMP."
+    },
+    "step2": {
+      "number": "02",
+      "title": "Elige la escala",
+      "description": "Selecciona un escalado de 2x, 4x u 8x. Elige tu formato de salida y el nivel de calidad."
+    },
+    "step3": {
+      "number": "03",
+      "title": "Descarga al instante",
+      "description": "Tu imagen escalada esta lista en segundos. Descargala directamente, no necesitas cuenta para tu primer escalado."
+    }
+  },
+  "features": {
+    "sectionLabel": "Por que Uplocal",
+    "privacy": {
+      "title": "100% privado",
+      "description": "Tus imagenes se procesan localmente en tu navegador. Nada se sube. Nada se almacena. Nadie ve tus archivos."
+    },
+    "quality": {
+      "title": "Calidad con IA",
+      "description": "La red neuronal Real-ESRGAN, ejecutada mediante WebAssembly, ofrece un escalado de calidad profesional con eliminacion de artefactos y mejora de detalles."
+    },
+    "speed": {
+      "title": "Resultados instantaneos",
+      "description": "Sin esperar en colas de servidor. El procesamiento comienza de inmediato en tu hardware. La mayoria de las imagenes se escalan en menos de 10 segundos."
+    },
+    "formats": {
+      "title": "Todos los formatos compatibles",
+      "description": "Sube PNG, JPEG, WebP o BMP. Descarga en tu formato preferido con ajustes de calidad configurables."
+    }
+  },
+  "upscaler": {
+    "title": "Escala tu imagen",
+    "dropzone": "Suelta tu imagen aqui o haz clic para explorar",
+    "dropzoneFormats": "PNG, JPEG, WebP, BMP hasta 10 MB",
+    "scaleLabel": "Escala",
+    "formatLabel": "Formato de salida",
+    "qualityLabel": "Calidad",
+    "upscaleButton": "Escalar",
+    "processing": "Procesando tu imagen",
+    "download": "Descargar imagen escalada",
+    "compare": "Comparar antes y despues",
+    "newImage": "Escalar otra imagen",
+    "freeLimit": "Has utilizado tu escalado gratuito del dia",
+    "upgradePrompt": "Actualiza tu plan para desbloquear escalado ilimitado en 4x y 8x",
+    "batchTitle": "Procesamiento por lotes",
+    "batchDescription": "Arrastra varias imagenes para procesarlas todas a la vez",
+    "originalSize": "Original",
+    "upscaledSize": "Escalada",
+    "processingTime": "Tiempo de procesamiento",
+    "fileSize": "Tamano del archivo",
+    "loadingModel": "Cargando modelo de IA",
+    "errorUnsupported": "Este formato de archivo no es compatible. Por favor, usa PNG, JPEG, WebP o BMP.",
+    "errorTooLarge": "Este archivo es demasiado grande. El tamano maximo es",
+    "errorProcessing": "Algo salio mal. Por favor, intentalo de nuevo.",
+    "errorWasm": "Tu navegador no soporta WebAssembly. Por favor, utiliza un navegador moderno como Chrome, Firefox, Safari o Edge.",
+    "offline": "Estas sin conexion. El escalado sigue funcionando.",
+    "tryIt": "Probar ahora",
+    "pro": "Pro",
+    "studio": "Studio",
+    "customDimensions": "Dimensiones personalizadas"
+  },
+  "pricing": {
+    "sectionLabel": "Precios",
+    "title": "Precios simples y transparentes",
+    "subtitle": "Empieza gratis, actualiza cuando necesites mas potencia.",
+    "free": {
+      "name": "Gratuito",
+      "price": "0",
+      "period": "para siempre",
+      "features": [
+        "1 escalado por dia",
+        "Escala maxima de 2x",
+        "Salida en PNG y JPEG",
+        "Procesamiento estandar"
+      ],
+      "cta": "Empezar gratis"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "Mas popular",
+      "priceMonthly": "9",
+      "priceYearly": "79",
+      "period": "mes",
+      "periodYearly": "ano",
+      "features": [
+        "Escalados ilimitados",
+        "Escala hasta 4x",
+        "Todos los formatos de salida",
+        "Procesamiento por lotes hasta 10 imagenes",
+        "Carga prioritaria del modelo"
+      ],
+      "cta": "Elegir Pro"
+    },
+    "studio": {
+      "name": "Studio",
+      "priceMonthly": "24",
+      "priceYearly": "199",
+      "period": "mes",
+      "periodYearly": "ano",
+      "features": [
+        "Todo lo incluido en Pro",
+        "Escala hasta 8x",
+        "Procesamiento por lotes hasta 50 imagenes",
+        "Dimensiones de salida personalizadas",
+        "Acceso API",
+        "Licencia comercial"
+      ],
+      "cta": "Elegir Studio"
+    },
+    "toggle": {
+      "monthly": "Mensual",
+      "yearly": "Anual",
+      "save": "Ahorra un 27%"
+    },
+    "currency": "$",
+    "comparison": {
+      "title": "Comparacion de funciones",
+      "feature": "Funcion",
+      "upscalesPerDay": "Escalados por dia",
+      "maxScale": "Escala maxima",
+      "outputFormats": "Formatos de salida",
+      "batchProcessing": "Procesamiento por lotes",
+      "maxFileSize": "Tamano maximo de archivo",
+      "customDimensions": "Dimensiones personalizadas",
+      "apiAccess": "Acceso a la API",
+      "commercialLicense": "Licencia comercial",
+      "free_upscalesPerDay": "1",
+      "free_maxScale": "2x",
+      "free_outputFormats": "PNG, JPEG",
+      "free_batchProcessing": "No",
+      "free_maxFileSize": "5 MB",
+      "free_customDimensions": "No",
+      "free_apiAccess": "No",
+      "free_commercialLicense": "No",
+      "pro_upscalesPerDay": "Ilimitado",
+      "pro_maxScale": "4x",
+      "pro_outputFormats": "PNG, JPEG, WebP",
+      "pro_batchProcessing": "Hasta 10",
+      "pro_maxFileSize": "10 MB",
+      "pro_customDimensions": "No",
+      "pro_apiAccess": "No",
+      "pro_commercialLicense": "No",
+      "studio_upscalesPerDay": "Ilimitado",
+      "studio_maxScale": "8x",
+      "studio_outputFormats": "PNG, JPEG, WebP",
+      "studio_batchProcessing": "Hasta 50",
+      "studio_maxFileSize": "10 MB",
+      "studio_customDimensions": "Si",
+      "studio_apiAccess": "Si",
+      "studio_commercialLicense": "Si"
+    },
+    "faq": {
+      "switch": {
+        "question": "Puedo cambiar de plan?",
+        "answer": "Si, puedes subir o bajar de plan en cualquier momento. Los cambios entran en vigor al inicio de tu siguiente periodo de facturacion."
+      },
+      "refund": {
+        "question": "Ofrecen reembolsos?",
+        "answer": "Si. Si no estas satisfecho en los primeros 7 dias, contactanos para obtener un reembolso completo."
+      },
+      "cancel": {
+        "question": "Puedo cancelar en cualquier momento?",
+        "answer": "Por supuesto. Cancela desde tu panel en cualquier momento. Mantienes el acceso hasta el final de tu periodo de facturacion."
+      }
+    }
+  },
+  "faq": {
+    "sectionLabel": "Preguntas",
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "Como escala Uplocal las imagenes sin un servidor?",
+        "answer": "Uplocal utiliza Real-ESRGAN, un modelo de escalado con IA, compilado a WebAssembly. Esto significa que el modelo de IA se ejecuta directamente en tu navegador, en tu propio dispositivo. Tus imagenes nunca salen de tu ordenador."
+      },
+      {
+        "question": "Hay un limite de tamano de archivo?",
+        "answer": "Los usuarios gratuitos pueden escalar imagenes de hasta 5 MB. Los usuarios Pro y Studio pueden procesar imagenes de hasta 10 MB. Para mejores resultados con imagenes muy grandes, recomendamos comenzar con imagenes de menos de 4000x4000 pixeles."
+      },
+      {
+        "question": "Que formatos de imagen son compatibles?",
+        "answer": "Uplocal acepta PNG, JPEG, WebP y BMP como entrada. La salida se puede guardar como PNG, JPEG o WebP con ajustes de calidad configurables."
+      },
+      {
+        "question": "Cuanto tiempo tarda el escalado?",
+        "answer": "El tiempo de procesamiento depende del tamano de la imagen y de tu dispositivo. Una imagen tipica de 1080p escalada a 2x tarda de 5 a 15 segundos en un portatil moderno. Las escalas de 4x y 8x tardan proporcionalmente mas."
+      },
+      {
+        "question": "Puedo cancelar mi suscripcion?",
+        "answer": "Si, puedes cancelar en cualquier momento desde tu panel. Conservaras el acceso a las funciones de tu plan hasta el final de tu periodo de facturacion actual."
+      },
+      {
+        "question": "Funciona en dispositivos moviles?",
+        "answer": "Uplocal funciona en navegadores moviles que soporten WebAssembly, incluyendo Chrome y Safari en iOS y Android. El rendimiento varia segun las capacidades de tu dispositivo."
+      }
+    ],
+    "seeAll": "Ver todas las preguntas"
+  },
+  "about": {
+    "sectionLabel": "Acerca de Uplocal",
+    "title": "Escalado de imagenes con IA que respeta tu privacidad",
+    "intro": "Uplocal se construyo sobre un principio simple: tus imagenes son tuyas. La mayoria de las herramientas de escalado en linea requieren que subas tus archivos a servidores remotos, donde se procesan, almacenan y a veces se utilizan sin tu conocimiento. Nosotros adoptamos un enfoque fundamentalmente diferente. Uplocal procesa cada pixel en tu dispositivo. Tus imagenes nunca salen de tu navegador. Ningun servidor ve jamas tus archivos.",
+    "howTitle": "Como funciona",
+    "howContent": "Uplocal utiliza ESRGAN (Enhanced Super Resolution Generative Adversarial Network), un modelo de IA entrenado especificamente para aumentar la resolucion de las imagenes preservando detalles y reduciendo artefactos. El modelo se ejecuta mediante TensorFlow.js directamente en tu navegador, usando la GPU de tu dispositivo a traves de la aceleracion WebGL o WebGPU. Cuando sueltas una imagen, el modelo de IA se carga una sola vez y se almacena en cache localmente. Tu imagen se procesa en mosaicos para gestionar la memoria de forma eficiente. El resultado escalado se ensambla y queda disponible para su descarga, todo sin que un solo byte salga de tu dispositivo.",
+    "whyTitle": "Por que el procesamiento local",
+    "whyContent": "Los servicios de escalado en servidor transmiten tus imagenes por Internet a centros de datos remotos. Esto introduce riesgos de privacidad, latencia, costes de ancho de banda y dependencia de la disponibilidad de terceros. Con Uplocal, el procesamiento ocurre donde los datos ya estan: en tu maquina. Esto significa que la herramienta funciona sin conexion tras la primera carga del modelo, no hay colas de subida y tus imagenes permanecen 100% privadas. Tambien significa cero coste de servidor para el procesamiento, lo que nos permite ofrecer un generoso plan gratuito.",
+    "techTitle": "La tecnologia",
+    "techContent": "TensorFlow.js permite ejecutar redes neuronales entrenadas a velocidad casi nativa en navegadores modernos. Uplocal aprovecha los backends WebGL y WebGPU para la inferencia acelerada por GPU. Las imagenes se procesan en mosaicos superpuestos (tamano de parche configurable segun tu plan) y se reensamblan sin costuras. Los pesos del modelo de IA se descargan en el primer uso y se almacenan en cache en el almacenamiento del navegador para cargas posteriores instantaneas. Los formatos de salida incluyen PNG, JPEG y WebP con calidad ajustable. Los usuarios Pro y Studio se benefician de mosaicos de procesamiento mas grandes para una inferencia mas rapida.",
+    "companyTitle": "Creado por HiddenLab",
+    "companyContent": "Uplocal esta desarrollado por HiddenLab, un estudio de software frances enfocado en crear herramientas que priorizan la privacidad. Creemos que la tecnologia potente no deberia exigir que sacrifiques tus datos. Si tienes preguntas, comentarios o deseas contactarnos, escribenos a contact@metalya.fr."
+  },
+  "legal": {
+    "privacy": {
+      "title": "Politica de privacidad",
+      "lastUpdated": "Ultima actualizacion"
+    },
+    "terms": {
+      "title": "Terminos de servicio",
+      "lastUpdated": "Ultima actualizacion"
+    }
+  },
+  "footer": {
+    "description": "Escalado de imagenes con IA, 100% en tu navegador. Tus archivos nunca salen de tu dispositivo.",
+    "product": "Producto",
+    "company": "Empresa",
+    "legal": "Legal",
+    "privacy": "Politica de privacidad",
+    "terms": "Terminos de servicio",
+    "copyright": "Uplocal. Todos los derechos reservados.",
+    "madeBy": "Creado por"
+  },
+  "auth": {
+    "signinTitle": "Bienvenido de nuevo",
+    "signupTitle": "Crea tu cuenta",
+    "google": "Google",
+    "noAccount": "Aun no tienes cuenta?",
+    "hasAccount": "Ya tienes una cuenta?",
+    "signupLink": "Crear una",
+    "signinLink": "Iniciar sesion",
+    "emailSent": "Revisa tu correo electronico para encontrar un enlace de acceso.",
+    "error": "Algo salio mal. Por favor, intentalo de nuevo."
+  },
+  "dashboard": {
+    "title": "Panel",
+    "welcome": "Bienvenido de nuevo",
+    "usage": "Uso este mes",
+    "history": "Escalados recientes",
+    "plan": "Plan actual",
+    "upgrade": "Mejorar plan",
+    "manageBilling": "Gestionar facturacion",
+    "settings": "Ajustes",
+    "settingsTitle": "Ajustes de la cuenta",
+    "historyTitle": "Historial de escalados",
+    "noHistory": "Aun no hay escalados. Prueba el primero.",
+    "upscaleNow": "Escalar una imagen",
+    "totalUpscales": "Total de escalados",
+    "avgTime": "Tiempo promedio",
+    "defaultScale": "Escala predeterminada",
+    "defaultFormat": "Formato predeterminado",
+    "defaultQuality": "Calidad predeterminada",
+    "theme": "Tema",
+    "language": "Idioma",
+    "save": "Guardar cambios",
+    "saved": "Ajustes guardados."
+  },
+  "common": {
+    "loading": "Cargando",
+    "error": "Algo salio mal",
+    "retry": "Intentar de nuevo",
+    "back": "Volver",
+    "notFound": "Pagina no encontrada",
+    "notFoundDescription": "La pagina que buscas no existe o ha sido movida.",
+    "backHome": "Volver al inicio"
+  }
+}

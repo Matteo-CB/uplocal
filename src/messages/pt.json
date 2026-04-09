@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "title": "Uplocal: Upscaler de Imagem com IA, 100% Privado, Funciona no Seu Navegador",
+    "description": "Aumente a resolucao das suas imagens ate 8x usando IA diretamente no seu navegador. Sem upload, sem servidor, privacidade total. Os seus ficheiros nunca saem do seu dispositivo.",
+    "keywords": "melhorar qualidade imagem, aumentar resolucao imagem, upscaler de imagem IA, melhorar foto online"
+  },
+  "pricingMeta": {
+    "title": "Precos | Uplocal",
+    "description": "Precos simples e transparentes para melhoramento de imagens com IA. Plano gratuito disponivel. Planos Pro e Studio para profissionais."
+  },
+  "upscaleMeta": {
+    "title": "Melhore a sua imagem | Uplocal",
+    "description": "Carregue e melhore a sua imagem ate 8x com IA. 100% privado, funciona no seu navegador."
+  },
+  "faqMeta": {
+    "title": "FAQ | Uplocal",
+    "description": "Perguntas frequentes sobre o upscaler de imagens IA Uplocal. Como funciona, formatos suportados, precos."
+  },
+  "aboutMeta": {
+    "title": "Sobre | Uplocal",
+    "description": "Saiba mais sobre o Uplocal, o upscaler de imagens IA focado na privacidade, criado pela HiddenLab. Processamento 100% no navegador."
+  },
+  "nav": {
+    "upscale": "Melhorar",
+    "pricing": "Precos",
+    "about": "Sobre",
+    "faq": "FAQ",
+    "signin": "Entrar",
+    "signup": "Comecar",
+    "dashboard": "Painel",
+    "signout": "Sair",
+    "themeLight": "Claro",
+    "themeDark": "Escuro"
+  },
+  "hero": {
+    "title": "Melhore qualquer imagem com IA. Diretamente no seu navegador.",
+    "subtitle": "As suas imagens nunca saem do seu dispositivo. O Uplocal funciona inteiramente no seu navegador usando WebAssembly. Sem servidor, sem upload, sem compromisso na privacidade.",
+    "cta": "Melhorar uma imagem agora",
+    "secondaryCta": "Ver precos"
+  },
+  "trust": {
+    "browser": "100% no navegador",
+    "noUpload": "Sem upload de imagens"
+  },
+  "howItWorks": {
+    "sectionLabel": "Como Funciona",
+    "step1": {
+      "number": "01",
+      "title": "Arraste a Sua Imagem",
+      "description": "Arraste e solte qualquer imagem ou clique para procurar. Aceitamos ficheiros PNG, JPEG, WebP e BMP."
+    },
+    "step2": {
+      "number": "02",
+      "title": "Escolha a Escala",
+      "description": "Selecione 2x, 4x ou 8x. Escolha o formato de saida e o nivel de qualidade."
+    },
+    "step3": {
+      "number": "03",
+      "title": "Descarregue Instantaneamente",
+      "description": "A sua imagem melhorada fica pronta em segundos. Descarregue diretamente, sem necessidade de conta para a primeira utilizacao."
+    }
+  },
+  "features": {
+    "sectionLabel": "Porque o Uplocal",
+    "privacy": {
+      "title": "100% Privado",
+      "description": "As suas imagens sao processadas localmente no seu navegador. Nada e enviado. Nada e armazenado. Ninguem ve os seus ficheiros."
+    },
+    "quality": {
+      "title": "Qualidade com IA",
+      "description": "A rede neural Real-ESRGAN, executada via WebAssembly, oferece melhoramento de qualidade profissional com remocao de artefactos e realce de detalhes."
+    },
+    "speed": {
+      "title": "Resultados Instantaneos",
+      "description": "Sem filas de espera em servidores. O processamento comeca imediatamente no seu hardware. A maioria das imagens e melhorada em menos de 10 segundos."
+    },
+    "formats": {
+      "title": "Todos os Formatos Suportados",
+      "description": "Carregue PNG, JPEG, WebP ou BMP. Descarregue no formato que preferir com definicoes de qualidade ajustaveis."
+    }
+  },
+  "upscaler": {
+    "title": "Melhore a Sua Imagem",
+    "dropzone": "Arraste a sua imagem aqui ou clique para procurar",
+    "dropzoneFormats": "PNG, JPEG, WebP, BMP ate 10MB",
+    "scaleLabel": "Escala",
+    "formatLabel": "Formato de saida",
+    "qualityLabel": "Qualidade",
+    "upscaleButton": "Melhorar",
+    "processing": "A processar a sua imagem",
+    "download": "Descarregar imagem melhorada",
+    "compare": "Comparar antes e depois",
+    "newImage": "Melhorar outra imagem",
+    "freeLimit": "Ja utilizou a sua melhoria gratuita de hoje",
+    "upgradePrompt": "Faca upgrade para desbloquear melhorias ilimitadas a 4x e 8x",
+    "batchTitle": "Processamento em Lote",
+    "batchDescription": "Arraste varias imagens para as processar todas de uma vez",
+    "originalSize": "Original",
+    "upscaledSize": "Melhorada",
+    "processingTime": "Tempo de processamento",
+    "fileSize": "Tamanho do ficheiro",
+    "loadingModel": "A carregar modelo de IA",
+    "errorUnsupported": "Este formato de ficheiro nao e suportado. Por favor utilize PNG, JPEG, WebP ou BMP.",
+    "errorTooLarge": "Este ficheiro e demasiado grande. O tamanho maximo e",
+    "errorProcessing": "Algo correu mal. Por favor tente novamente.",
+    "errorWasm": "O seu navegador nao suporta WebAssembly. Por favor utilize um navegador moderno como Chrome, Firefox, Safari ou Edge.",
+    "offline": "Esta offline. O melhoramento de imagens continua a funcionar.",
+    "tryIt": "Experimente agora",
+    "pro": "Pro",
+    "studio": "Studio",
+    "customDimensions": "Dimensoes personalizadas"
+  },
+  "pricing": {
+    "sectionLabel": "Precos",
+    "title": "Precos Simples e Transparentes",
+    "subtitle": "Comece gratuitamente, faca upgrade quando precisar de mais.",
+    "free": {
+      "name": "Gratuito",
+      "price": "0",
+      "period": "para sempre",
+      "features": [
+        "1 melhoria por dia",
+        "Escala maxima de 2x",
+        "Saida em PNG e JPEG",
+        "Processamento padrao"
+      ],
+      "cta": "Comecar gratuitamente"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "Mais popular",
+      "priceMonthly": "9",
+      "priceYearly": "79",
+      "period": "mes",
+      "periodYearly": "ano",
+      "features": [
+        "Melhorias ilimitadas",
+        "Ate 4x de escala",
+        "Todos os formatos de saida",
+        "Processamento em lote ate 10 imagens",
+        "Carregamento prioritario do modelo"
+      ],
+      "cta": "Comecar Pro"
+    },
+    "studio": {
+      "name": "Studio",
+      "priceMonthly": "24",
+      "priceYearly": "199",
+      "period": "mes",
+      "periodYearly": "ano",
+      "features": [
+        "Tudo incluido no Pro",
+        "Ate 8x de escala",
+        "Processamento em lote ate 50 imagens",
+        "Dimensoes de saida personalizadas",
+        "Acesso API",
+        "Licenca comercial"
+      ],
+      "cta": "Comecar Studio"
+    },
+    "toggle": {
+      "monthly": "Mensal",
+      "yearly": "Anual",
+      "save": "Poupe 27%"
+    },
+    "currency": "$",
+    "comparison": {
+      "title": "Comparacao de Funcionalidades",
+      "feature": "Funcionalidade",
+      "upscalesPerDay": "Melhorias por dia",
+      "maxScale": "Escala maxima",
+      "outputFormats": "Formatos de saida",
+      "batchProcessing": "Processamento em lote",
+      "maxFileSize": "Tamanho maximo de ficheiro",
+      "customDimensions": "Dimensoes personalizadas",
+      "apiAccess": "Acesso a API",
+      "commercialLicense": "Licenca comercial",
+      "free_upscalesPerDay": "1",
+      "free_maxScale": "2x",
+      "free_outputFormats": "PNG, JPEG",
+      "free_batchProcessing": "Nao",
+      "free_maxFileSize": "5MB",
+      "free_customDimensions": "Nao",
+      "free_apiAccess": "Nao",
+      "free_commercialLicense": "Nao",
+      "pro_upscalesPerDay": "Ilimitado",
+      "pro_maxScale": "4x",
+      "pro_outputFormats": "PNG, JPEG, WebP",
+      "pro_batchProcessing": "Ate 10",
+      "pro_maxFileSize": "10MB",
+      "pro_customDimensions": "Nao",
+      "pro_apiAccess": "Nao",
+      "pro_commercialLicense": "Nao",
+      "studio_upscalesPerDay": "Ilimitado",
+      "studio_maxScale": "8x",
+      "studio_outputFormats": "PNG, JPEG, WebP",
+      "studio_batchProcessing": "Ate 50",
+      "studio_maxFileSize": "10MB",
+      "studio_customDimensions": "Sim",
+      "studio_apiAccess": "Sim",
+      "studio_commercialLicense": "Sim"
+    },
+    "faq": {
+      "switch": {
+        "question": "Posso mudar de plano?",
+        "answer": "Sim, pode fazer upgrade ou downgrade a qualquer momento. As alteracoes entram em vigor no inicio do proximo periodo de faturacao."
+      },
+      "refund": {
+        "question": "Oferecem reembolsos?",
+        "answer": "Sim. Se nao estiver satisfeito nos primeiros 7 dias, contacte nos para um reembolso total."
+      },
+      "cancel": {
+        "question": "Posso cancelar a qualquer momento?",
+        "answer": "Claro. Cancele a partir do seu painel a qualquer momento. Mantem o acesso ate ao fim do seu periodo de faturacao."
+      }
+    }
+  },
+  "faq": {
+    "sectionLabel": "Perguntas",
+    "title": "Perguntas Frequentes",
+    "items": [
+      {
+        "question": "Como e que o Uplocal melhora imagens sem um servidor?",
+        "answer": "O Uplocal utiliza o Real-ESRGAN, um modelo de IA para melhoramento de imagens, compilado para WebAssembly. Isto significa que o modelo de IA e executado diretamente no seu navegador, no seu proprio dispositivo. As suas imagens nunca saem do seu computador."
+      },
+      {
+        "question": "Existe um limite de tamanho de ficheiro?",
+        "answer": "Os utilizadores gratuitos podem melhorar imagens ate 5MB. Os utilizadores Pro e Studio podem processar imagens ate 10MB. Para melhores resultados com imagens muito grandes, recomendamos comecar com imagens abaixo de 4000x4000 pixeis."
+      },
+      {
+        "question": "Que formatos de imagem sao suportados?",
+        "answer": "O Uplocal aceita PNG, JPEG, WebP e BMP como entrada. A saida pode ser guardada como PNG, JPEG ou WebP com definicoes de qualidade ajustaveis."
+      },
+      {
+        "question": "Quanto tempo demora o melhoramento?",
+        "answer": "O tempo de processamento depende do tamanho da imagem e do seu dispositivo. Uma imagem tipica de 1080p melhorada para 2x demora 5 a 15 segundos num portatil moderno. As escalas 4x e 8x demoram proporcionalmente mais."
+      },
+      {
+        "question": "Posso cancelar a minha subscricao?",
+        "answer": "Sim, pode cancelar a qualquer momento a partir do seu painel. Mantera o acesso as funcionalidades do seu plano ate ao fim do periodo de faturacao atual."
+      },
+      {
+        "question": "Funciona em dispositivos moveis?",
+        "answer": "O Uplocal funciona em navegadores moveis que suportam WebAssembly, incluindo Chrome e Safari no iOS e Android. O desempenho varia conforme as capacidades do seu dispositivo."
+      }
+    ],
+    "seeAll": "Ver todas as perguntas"
+  },
+  "about": {
+    "sectionLabel": "Sobre o Uplocal",
+    "title": "Melhoramento de Imagens com IA Que Respeita a Sua Privacidade",
+    "intro": "O Uplocal foi construido com base num principio simples: as suas imagens sao suas. A maioria das ferramentas de melhoramento online exige que envie os seus ficheiros para servidores remotos, onde sao processados, armazenados e por vezes utilizados sem o seu conhecimento. Nos adotamos uma abordagem fundamentalmente diferente. O Uplocal processa cada pixel no seu dispositivo. As suas imagens nunca saem do seu navegador. Nenhum servidor ve os seus ficheiros.",
+    "howTitle": "Como Funciona",
+    "howContent": "O Uplocal utiliza o ESRGAN (Enhanced Super Resolution Generative Adversarial Network), um modelo de IA especificamente treinado para aumentar a resolucao de imagens preservando detalhes e reduzindo artefactos. O modelo e executado via TensorFlow.js diretamente no seu navegador, utilizando a GPU do seu dispositivo atraves da aceleracao WebGL ou WebGPU. Quando arrasta uma imagem, o modelo de IA e carregado uma vez e fica em cache localmente. A sua imagem e processada em blocos para gerir a memoria de forma eficiente. O resultado melhorado e montado e disponibilizado para descarregar, tudo sem que um unico byte saia do seu dispositivo.",
+    "whyTitle": "Porque Processamento Local",
+    "whyContent": "Os servicos de melhoramento baseados em servidor transmitem as suas imagens pela internet para centros de dados remotos. Isto introduz riscos de privacidade, latencia, custos de largura de banda e dependencia da disponibilidade de terceiros. Com o Uplocal, o processamento acontece onde os dados ja se encontram: na sua maquina. Isto significa que a ferramenta funciona offline apos o primeiro carregamento do modelo, nao existem filas de envio e as suas imagens permanecem 100% privadas. Tambem significa zero custo de servidor para processamento, o que nos permite oferecer um generoso plano gratuito.",
+    "techTitle": "A Tecnologia",
+    "techContent": "O TensorFlow.js permite executar redes neurais treinadas a uma velocidade quase nativa em navegadores modernos. O Uplocal utiliza os backends WebGL e WebGPU para inferencia acelerada por GPU. As imagens sao processadas em blocos sobrepostos (tamanho de bloco configuravel conforme o seu plano) e remontadas sem costuras. Os pesos do modelo de IA sao descarregados na primeira utilizacao e ficam em cache no armazenamento do navegador para carregamentos posteriores instantaneos. Os formatos de saida incluem PNG, JPEG e WebP com qualidade ajustavel. Os utilizadores Pro e Studio beneficiam de blocos de processamento maiores para uma inferencia mais rapida.",
+    "companyTitle": "Criado pela HiddenLab",
+    "companyContent": "O Uplocal e desenvolvido pela HiddenLab, um estudio de software frances focado na criacao de ferramentas que priorizam a privacidade. Acreditamos que a tecnologia poderosa nao deve exigir que sacrifique os seus dados. Se tem questoes, feedback ou deseja entrar em contacto, escreva nos para contact@metalya.fr."
+  },
+  "legal": {
+    "privacy": {
+      "title": "Politica de Privacidade",
+      "lastUpdated": "Ultima atualizacao"
+    },
+    "terms": {
+      "title": "Termos de Servico",
+      "lastUpdated": "Ultima atualizacao"
+    }
+  },
+  "footer": {
+    "description": "Melhoramento de imagens com IA, 100% no seu navegador. Os seus ficheiros nunca saem do seu dispositivo.",
+    "product": "Produto",
+    "company": "Empresa",
+    "legal": "Legal",
+    "privacy": "Politica de Privacidade",
+    "terms": "Termos de Servico",
+    "copyright": "Uplocal. Todos os direitos reservados.",
+    "madeBy": "Criado por"
+  },
+  "auth": {
+    "signinTitle": "Bem vindo de Volta",
+    "signupTitle": "Crie a Sua Conta",
+    "google": "Google",
+    "noAccount": "Ainda nao tem conta?",
+    "hasAccount": "Ja tem uma conta?",
+    "signupLink": "Criar uma",
+    "signinLink": "Entrar",
+    "emailSent": "Verifique o seu email para um link de acesso.",
+    "error": "Algo correu mal. Por favor tente novamente."
+  },
+  "dashboard": {
+    "title": "Painel",
+    "welcome": "Bem vindo de volta",
+    "usage": "Utilizacao Este Mes",
+    "history": "Melhorias Recentes",
+    "plan": "Plano Atual",
+    "upgrade": "Fazer upgrade do plano",
+    "manageBilling": "Gerir faturacao",
+    "settings": "Definicoes",
+    "settingsTitle": "Definicoes da Conta",
+    "historyTitle": "Historico de Melhorias",
+    "noHistory": "Ainda sem melhorias. Experimente a sua primeira.",
+    "upscaleNow": "Melhorar uma imagem",
+    "totalUpscales": "Total de melhorias",
+    "avgTime": "Tempo medio",
+    "defaultScale": "Escala predefinida",
+    "defaultFormat": "Formato predefinido",
+    "defaultQuality": "Qualidade predefinida",
+    "theme": "Tema",
+    "language": "Idioma",
+    "save": "Guardar alteracoes",
+    "saved": "Definicoes guardadas."
+  },
+  "common": {
+    "loading": "A carregar",
+    "error": "Algo correu mal",
+    "retry": "Tentar novamente",
+    "back": "Voltar",
+    "notFound": "Pagina Nao Encontrada",
+    "notFoundDescription": "A pagina que procura nao existe ou foi movida.",
+    "backHome": "Voltar a pagina inicial"
+  }
+}
