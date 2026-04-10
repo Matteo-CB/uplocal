@@ -18,6 +18,7 @@ import type { Scale, OutputFormat } from "@/types/upscaler";
 
 export function UpscalerCanvas() {
   const t = useTranslations("upscaler");
+  const tU2 = useTranslations("upscaler2");
   const { state, progress, result, error, upscale, reset, preloadModel } =
     useUpscaler();
   const { status, loading: usageLoading, checkBeforeUpscale, recordUpscale } =
@@ -203,7 +204,7 @@ export function UpscalerCanvas() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           <div className="overflow-hidden border border-border bg-surface">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={previewUrl} alt={file?.name || "Uploaded image"} className="h-auto w-full" />
+            <img src={previewUrl} alt={file?.name || tU2("uploadedImage")} className="h-auto w-full" />
           </div>
           <div className="space-y-8">
             <div>

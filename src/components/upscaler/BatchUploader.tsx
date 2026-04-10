@@ -45,6 +45,7 @@ export function BatchUploader({
   onQualityChange,
 }: BatchUploaderProps) {
   const t = useTranslations("upscaler");
+  const tU2 = useTranslations("upscaler2");
   const inputRef = useRef<HTMLInputElement>(null);
   const [files, setFiles] = useState<BatchFile[]>([]);
   const [isProcessing, setIsProcessing] = useState(false);
@@ -344,7 +345,7 @@ export function BatchUploader({
                   type="button"
                   onClick={() => removeFile(item.id)}
                   className="cursor-pointer text-muted transition-colors duration-200 hover:text-ink"
-                  aria-label={`Remove ${item.file.name}`}
+                  aria-label={`${tU2("removeFile")} ${item.file.name}`}
                 >
                   <svg className="h-4 w-4" viewBox="0 0 16 16" fill="none" aria-hidden="true">
                     <path d="M4 4L12 12M12 4L4 12" stroke="currentColor" strokeWidth="2" strokeLinecap="square" />
@@ -370,16 +371,16 @@ export function BatchUploader({
                   onClick={() => downloadFile(item.resultUrl!, `upscaled_${item.file.name}`)}
                   className="cursor-pointer text-xs font-medium font-body text-accent transition-colors duration-200 hover:text-accent-hover"
                 >
-                  Download
+                  {tU2("downloadButton")}
                 </button>
               )}
 
               {item.status === "error" && (
-                <span className="text-xs font-body text-error">Error</span>
+                <span className="text-xs font-body text-error">{tU2("errorStatus")}</span>
               )}
 
               {item.status === "pending" && isProcessing && (
-                <span className="text-xs font-mono text-muted">Waiting</span>
+                <span className="text-xs font-mono text-muted">{tU2("waitingStatus")}</span>
               )}
             </li>
           ))}

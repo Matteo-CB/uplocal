@@ -37,14 +37,14 @@ function CheckCircle() {
   );
 }
 
-function renderCellValue(value: string) {
-  if (value === "Yes") {
+function renderCellValue(value: string, yesLabel: string, noLabel: string) {
+  if (value === "Yes" || value === yesLabel) {
     return <CheckCircle />;
   }
-  if (value === "No") {
+  if (value === "No" || value === noLabel) {
     return (
       <span className="text-sm text-muted font-body">
-        {value}
+        {noLabel}
       </span>
     );
   }
@@ -57,6 +57,10 @@ function renderCellValue(value: string) {
 
 export function FeatureComparison() {
   const t = useTranslations("pricing.comparison");
+  const tCommon = useTranslations("common");
+  const tPricing = useTranslations("pricing");
+  const yesLabel = tCommon("yes");
+  const noLabel = tCommon("no");
 
   return (
     <div className="overflow-x-auto">
@@ -71,7 +75,11 @@ export function FeatureComparison() {
                 key={plan}
                 className="pb-4 px-4 text-center text-xs uppercase tracking-widest text-muted font-body"
               >
-                {plan === "free" ? "Free" : plan === "pro" ? "Pro" : "Studio"}
+                {plan === "free"
+                  ? tPricing("free.name")
+                  : plan === "pro"
+                  ? tPricing("pro.name")
+                  : tPricing("studio.name")}
               </th>
             ))}
           </tr>
@@ -87,7 +95,7 @@ export function FeatureComparison() {
               </td>
               {PLANS.map((plan) => (
                 <td key={plan} className="px-4 py-4 text-center">
-                  {renderCellValue(t(`${plan}_${featureKey}`))}
+                  {renderCellValue(t(`${plan}_${featureKey}`), yesLabel, noLabel)}
                 </td>
               ))}
             </tr>

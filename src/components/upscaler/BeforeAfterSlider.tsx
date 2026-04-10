@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useRef, useState } from "react";
+import { useTranslations } from "next-intl";
 
 interface BeforeAfterSliderProps {
   beforeSrc: string;
@@ -11,6 +12,7 @@ export function BeforeAfterSlider({
   beforeSrc,
   afterSrc,
 }: BeforeAfterSliderProps) {
+  const tU2 = useTranslations("upscaler2");
   const containerRef = useRef<HTMLDivElement>(null);
   const [position, setPosition] = useState(50);
   const [isDragging, setIsDragging] = useState(false);
@@ -82,7 +84,7 @@ export function BeforeAfterSlider({
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={afterSrc}
-        alt="Upscaled image"
+        alt={tU2("upscaledImage")}
         className="block w-full h-auto"
         draggable={false}
       />
@@ -95,7 +97,7 @@ export function BeforeAfterSlider({
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={beforeSrc}
-          alt="Original image"
+          alt={tU2("originalImage")}
           className="block w-full h-auto"
           style={{
             width: containerRef.current
@@ -117,7 +119,7 @@ export function BeforeAfterSlider({
       <div
         role="slider"
         tabIndex={0}
-        aria-label="Before and after comparison slider"
+        aria-label={tU2("beforeAfterSlider")}
         aria-valuenow={Math.round(position)}
         aria-valuemin={0}
         aria-valuemax={100}

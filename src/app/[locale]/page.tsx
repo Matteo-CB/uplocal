@@ -82,7 +82,7 @@ export default async function HomePage({ params }: PageProps) {
                       </div>
                     </div>
                     <p className="mt-4 font-mono text-xs tracking-wider text-muted">
-                      2x &rarr; 4x &rarr; 8x
+                      {t("upscaler2.scaleDemo")}
                     </p>
                   </div>
                 </div>
@@ -154,9 +154,7 @@ export default async function HomePage({ params }: PageProps) {
             <div className="md:col-span-3">
               <SectionLabel>{t("features.sectionLabel")}</SectionLabel>
               <h2 className="mt-4 font-display text-3xl text-ink md:text-4xl">
-                Built
-                <br />
-                different.
+                {t("upscaler2.builtDifferent")}
               </h2>
             </div>
             <div className="md:col-span-9">

@@ -5,6 +5,11 @@ export const routing = defineRouting({
   defaultLocale: "en",
   localePrefix: "always",
   localeDetection: true,
+  // Disable the NEXT_LOCALE cookie so locale is always detected from the
+  // Accept-Language header on each visit to the root. Without this, a user
+  // whose first visit resolved to "en" would be locked to "en" forever even
+  // after their browser language changes.
+  localeCookie: false,
   pathnames: {
     "/": "/",
     "/upscale": {

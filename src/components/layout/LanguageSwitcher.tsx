@@ -1,6 +1,6 @@
 "use client";
 
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "@/lib/i18n/navigation";
 import { routing } from "@/lib/i18n/routing";
 
@@ -19,6 +19,7 @@ const localeNames: Record<string, string> = {
 
 export function LanguageSwitcher() {
   const locale = useLocale();
+  const tCommon = useTranslations("common");
   const router = useRouter();
   const pathname = usePathname();
 
@@ -35,7 +36,7 @@ export function LanguageSwitcher() {
       value={locale}
       onChange={handleChange}
       className="bg-transparent text-sm text-muted outline-none cursor-pointer transition-colors duration-200 hover:text-ink"
-      aria-label="Select language"
+      aria-label={tCommon("selectLanguage")}
     >
       {routing.locales.map((loc) => (
         <option key={loc} value={loc}>

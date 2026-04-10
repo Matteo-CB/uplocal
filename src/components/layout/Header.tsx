@@ -11,6 +11,7 @@ import { ThemeToggle } from "./ThemeToggle";
 
 export function Header() {
   const t = useTranslations("nav");
+  const tCommon = useTranslations("common");
   const { data: session } = useSession();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -83,7 +84,7 @@ export function Header() {
         <button
           className="flex flex-col gap-1.5 md:hidden"
           onClick={() => setMobileOpen(true)}
-          aria-label="Open menu"
+          aria-label={tCommon("openMenu")}
         >
           <span className="block h-0.5 w-6 bg-ink" />
           <span className="block h-0.5 w-6 bg-ink" />

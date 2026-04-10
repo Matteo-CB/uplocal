@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import { useTranslations } from "next-intl";
 
 interface AccountSettingsProps {
   initialPreferences: {
@@ -21,23 +22,24 @@ interface AccountSettingsProps {
   };
 }
 
-const LOCALES = [
-  { value: "en", label: "English" },
-  { value: "fr", label: "Francais" },
-  { value: "de", label: "Deutsch" },
-  { value: "es", label: "Espanol" },
-  { value: "pt", label: "Portugues" },
-  { value: "ja", label: "Japanese" },
-  { value: "ko", label: "Korean" },
-  { value: "zh", label: "Chinese" },
-  { value: "ar", label: "Arabic" },
-  { value: "hi", label: "Hindi" },
-];
+const LOCALE_KEYS = [
+  { value: "en", key: "languageEn" },
+  { value: "fr", key: "languageFr" },
+  { value: "de", key: "languageDe" },
+  { value: "es", key: "languageEs" },
+  { value: "pt", key: "languagePt" },
+  { value: "ja", key: "languageJa" },
+  { value: "ko", key: "languageKo" },
+  { value: "zh", key: "languageZh" },
+  { value: "ar", key: "languageAr" },
+  { value: "hi", key: "languageHi" },
+] as const;
 
 export function AccountSettings({
   initialPreferences,
   labels,
 }: AccountSettingsProps) {
+  const tSettings = useTranslations("settings");
   const [scale, setScale] = useState(initialPreferences.defaultScale);
   const [format, setFormat] = useState(initialPreferences.defaultFormat);
   const [quality, setQuality] = useState(initialPreferences.defaultQuality);
@@ -155,9 +157,9 @@ export function AccountSettings({
           onChange={(e) => setTheme(e.target.value)}
           className={selectClasses}
         >
-          <option value="system">System</option>
-          <option value="light">Light</option>
-          <option value="dark">Dark</option>
+          <option value="system">{tSettings("themeSystem")}</option>
+          <option value="light">{tSettings("themeLight")}</option>
+          <option value="dark">{tSettings("themeDark")}</option>
         </select>
       </div>
 
@@ -174,9 +176,9 @@ export function AccountSettings({
           onChange={(e) => setLocale(e.target.value)}
           className={selectClasses}
         >
-          {LOCALES.map((loc) => (
+          {LOCALE_KEYS.map((loc) => (
             <option key={loc.value} value={loc.value}>
-              {loc.label}
+              {tSettings(loc.key)}
             </option>
           ))}
         </select>

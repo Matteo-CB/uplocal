@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getMessages, getTranslations } from "next-intl/server";
 import { routing } from "@/lib/i18n/routing";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -25,13 +25,14 @@ export default async function LocaleLayout({
   }
 
   const messages = await getMessages();
+  const tCommon = await getTranslations({ locale, namespace: "common" });
 
   return (
     <NextIntlClientProvider messages={messages}>
       <Providers>
         <SetLocaleAttrs locale={locale} />
         <a href="#main-content" className="skip-nav">
-          Skip to content
+          {tCommon("skipToContent")}
         </a>
         <Header />
         <main id="main-content" className="pt-18">

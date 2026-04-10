@@ -1,10 +1,13 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 interface ProcessingBarProps {
   progress: number;
 }
 
 export function ProcessingBar({ progress }: ProcessingBarProps) {
+  const tU2 = useTranslations("upscaler2");
   const clampedProgress = Math.max(0, Math.min(100, progress));
 
   return (
@@ -14,7 +17,7 @@ export function ProcessingBar({ progress }: ProcessingBarProps) {
         aria-valuenow={clampedProgress}
         aria-valuemin={0}
         aria-valuemax={100}
-        aria-label="Upscaling progress"
+        aria-label={tU2("upscalingProgress")}
         className="relative w-full h-1.5 bg-border overflow-hidden"
       >
         <div

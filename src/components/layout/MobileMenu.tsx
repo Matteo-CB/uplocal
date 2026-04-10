@@ -14,6 +14,7 @@ interface MobileMenuProps {
 
 export function MobileMenu({ open, onClose }: MobileMenuProps) {
   const t = useTranslations("nav");
+  const tCommon = useTranslations("common");
   const { data: session } = useSession();
 
   useEffect(() => {
@@ -50,9 +51,9 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
           <button
             onClick={onClose}
             className="text-sm text-muted transition-colors duration-200 hover:text-ink"
-            aria-label="Close menu"
+            aria-label={tCommon("closeMenu")}
           >
-            Close
+            {tCommon("close")}
           </button>
         </div>
 

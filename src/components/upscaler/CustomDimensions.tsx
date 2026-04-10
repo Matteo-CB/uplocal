@@ -19,6 +19,7 @@ export function CustomDimensions({
   onDimensionsChange,
 }: CustomDimensionsProps) {
   const t = useTranslations("upscaler");
+  const tU2 = useTranslations("upscaler2");
   const defaultWidth = inputWidth * scale;
   const defaultHeight = inputHeight * scale;
 
@@ -88,7 +89,7 @@ export function CustomDimensions({
               htmlFor="custom-width"
               className="mb-1 block text-xs font-body text-muted"
             >
-              W
+              {tU2("widthLabel")}
             </label>
             <input
               id="custom-width"
@@ -103,7 +104,7 @@ export function CustomDimensions({
             type="button"
             onClick={() => setLockRatio(!lockRatio)}
             className="mt-5 cursor-pointer text-muted transition-colors duration-200 hover:text-ink"
-            aria-label={lockRatio ? "Unlock aspect ratio" : "Lock aspect ratio"}
+            aria-label={lockRatio ? tU2("unlockRatio") : tU2("lockRatio")}
           >
             <svg
               className="h-5 w-5"
@@ -132,7 +133,7 @@ export function CustomDimensions({
               htmlFor="custom-height"
               className="mb-1 block text-xs font-body text-muted"
             >
-              H
+              {tU2("heightLabel")}
             </label>
             <input
               id="custom-height"
@@ -143,7 +144,7 @@ export function CustomDimensions({
             />
           </div>
 
-          <span className="mt-5 text-xs font-mono text-muted">px</span>
+          <span className="mt-5 text-xs font-mono text-muted">{tU2("pixelsUnit")}</span>
         </div>
       )}
     </div>
