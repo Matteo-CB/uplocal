@@ -1,0 +1,452 @@
+{
+  "metadata": {
+    "title": "Uplocal: AI图片放大工具，100%隐私保护，完全在浏览器中运行",
+    "description": "使用AI在浏览器中直接将图片放大至8倍。无需上传，无需服务器，完全保护隐私。您的文件始终留在您的设备上。",
+    "keywords": "AI图片放大, 图片增强, 提高图片分辨率, 图片无损放大, 浏览器图片放大"
+  },
+  "pricingMeta": {
+    "title": "价格 | Uplocal",
+    "description": "AI图片放大的简单透明定价。提供免费方案。为专业人士提供Pro和Studio方案。"
+  },
+  "upscaleMeta": {
+    "title": "放大您的图片 | Uplocal",
+    "description": "使用AI将图片放大至8倍。100%隐私保护，完全在浏览器中运行。"
+  },
+  "faqMeta": {
+    "title": "常见问题 | Uplocal",
+    "description": "关于Uplocal AI图片放大工具的常见问题。工作原理、支持的格式、价格说明。"
+  },
+  "aboutMeta": {
+    "title": "关于我们 | Uplocal",
+    "description": "了解Uplocal，由HiddenLab打造的隐私优先AI图片放大工具。100%浏览器端处理。"
+  },
+  "nav": {
+    "upscale": "图片放大",
+    "pricing": "价格",
+    "about": "关于",
+    "faq": "常见问题",
+    "signin": "登录",
+    "signup": "立即开始",
+    "dashboard": "控制台",
+    "signout": "退出登录",
+    "themeLight": "浅色",
+    "themeDark": "深色"
+  },
+  "hero": {
+    "title": "用AI放大任何图片，直接在浏览器中完成。",
+    "subtitle": "您的图片永远不会离开您的设备。Uplocal 完全在您的浏览器中通过 WebAssembly 运行。无需服务器，无需上传，隐私零妥协。",
+    "cta": "立即放大图片",
+    "secondaryCta": "查看价格"
+  },
+  "trust": {
+    "browser": "100% 浏览器处理",
+    "noUpload": "无需上传图片"
+  },
+  "howItWorks": {
+    "sectionLabel": "使用流程",
+    "step1": {
+      "number": "01",
+      "title": "拖放您的图片",
+      "description": "拖放任意图片或点击选择文件。支持 PNG、JPEG、WebP 和 BMP 格式。"
+    },
+    "step2": {
+      "number": "02",
+      "title": "选择放大倍数",
+      "description": "选择2倍、4倍或8倍放大。选定您需要的输出格式和画质级别。"
+    },
+    "step3": {
+      "number": "03",
+      "title": "即刻下载",
+      "description": "您的放大图片将在数秒内完成。直接下载，首次使用无需注册账号。"
+    }
+  },
+  "features": {
+    "sectionLabel": "为什么选择 Uplocal",
+    "privacy": {
+      "title": "100% 隐私保护",
+      "description": "您的图片完全在浏览器中本地处理。不会上传任何内容，不会存储任何数据，没有人能看到您的文件。"
+    },
+    "quality": {
+      "title": "AI 驱动的画质",
+      "description": "Real-ESRGAN 神经网络通过 WebAssembly 运行，提供专业级图片放大效果，能够去除伪影并增强细节。"
+    },
+    "speed": {
+      "title": "即时出结果",
+      "description": "无需在服务器队列中等待。处理立即在您的设备上开始。大多数图片在10秒内完成放大。"
+    },
+    "formats": {
+      "title": "支持所有格式",
+      "description": "上传 PNG、JPEG、WebP 或 BMP 文件。以您偏好的格式下载，支持调节画质设置。"
+    }
+  },
+  "upscaler": {
+    "title": "放大您的图片",
+    "dropzone": "将图片拖放到此处或点击浏览",
+    "dropzoneFormats": "PNG、JPEG、WebP、BMP，最大10MB",
+    "scaleLabel": "放大倍数",
+    "formatLabel": "输出格式",
+    "qualityLabel": "画质",
+    "upscaleButton": "开始放大",
+    "processing": "正在处理您的图片",
+    "download": "下载放大后的图片",
+    "compare": "对比放大前后效果",
+    "newImage": "放大另一张图片",
+    "freeLimit": "您今日的免费放大次数已用完",
+    "upgradePrompt": "升级以解锁无限次4倍和8倍放大",
+    "batchTitle": "批量处理",
+    "batchDescription": "拖入多张图片，一次性全部处理",
+    "originalSize": "原图",
+    "upscaledSize": "放大后",
+    "processingTime": "处理时间",
+    "fileSize": "文件大小",
+    "loadingModel": "正在加载AI模型",
+    "errorUnsupported": "不支持此文件格式。请使用 PNG、JPEG、WebP 或 BMP。",
+    "errorTooLarge": "文件过大。最大支持",
+    "errorProcessing": "出了点问题，请重试。",
+    "errorWasm": "您的浏览器不支持 WebAssembly。请使用 Chrome、Firefox、Safari 或 Edge 等现代浏览器。",
+    "offline": "您当前处于离线状态。图片放大功能仍然可用。",
+    "tryIt": "立即体验",
+    "pro": "Pro",
+    "studio": "Studio",
+    "customDimensions": "Custom dimensions"
+  },
+  "pricing": {
+    "sectionLabel": "价格",
+    "title": "简单透明的价格",
+    "subtitle": "免费开始使用，需要更多功能时再升级。",
+    "free": {
+      "name": "免费版",
+      "price": "0",
+      "period": "永久免费",
+      "features": [
+        "每天1次放大",
+        "最高2倍放大",
+        "PNG 和 JPEG 输出",
+        "标准处理速度"
+      ],
+      "cta": "免费开始"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "最受欢迎",
+      "priceMonthly": "9",
+      "priceYearly": "79",
+      "period": "月",
+      "periodYearly": "年",
+      "features": [
+        "无限次放大",
+        "最高4倍放大",
+        "所有输出格式",
+        "批量处理最多10张图片",
+        "优先加载模型"
+      ],
+      "cta": "开始使用 Pro"
+    },
+    "studio": {
+      "name": "Studio",
+      "priceMonthly": "24",
+      "priceYearly": "199",
+      "period": "月",
+      "periodYearly": "年",
+      "features": [
+        "包含 Pro 所有功能",
+        "最高8倍放大",
+        "批量处理最多50张图片",
+        "自定义输出尺寸",
+        "API 访问",
+        "商业使用许可"
+      ],
+      "cta": "开始使用 Studio"
+    },
+    "toggle": {
+      "monthly": "按月付费",
+      "yearly": "按年付费",
+      "save": "节省27%"
+    },
+    "currency": "$",
+    "comparison": {
+      "title": "功能对比",
+      "feature": "功能",
+      "upscalesPerDay": "每日放大次数",
+      "maxScale": "最大放大倍数",
+      "outputFormats": "输出格式",
+      "batchProcessing": "批量处理",
+      "maxFileSize": "最大文件大小",
+      "customDimensions": "自定义尺寸",
+      "apiAccess": "API 访问",
+      "commercialLicense": "商业许可",
+      "free_upscalesPerDay": "1",
+      "free_maxScale": "2x",
+      "free_outputFormats": "PNG, JPEG",
+      "free_batchProcessing": "不支持",
+      "free_maxFileSize": "5MB",
+      "free_customDimensions": "不支持",
+      "free_apiAccess": "不支持",
+      "free_commercialLicense": "不支持",
+      "pro_upscalesPerDay": "无限",
+      "pro_maxScale": "4x",
+      "pro_outputFormats": "PNG, JPEG, WebP",
+      "pro_batchProcessing": "最多10张",
+      "pro_maxFileSize": "10MB",
+      "pro_customDimensions": "不支持",
+      "pro_apiAccess": "不支持",
+      "pro_commercialLicense": "不支持",
+      "studio_upscalesPerDay": "无限",
+      "studio_maxScale": "8x",
+      "studio_outputFormats": "PNG, JPEG, WebP",
+      "studio_batchProcessing": "最多50张",
+      "studio_maxFileSize": "10MB",
+      "studio_customDimensions": "支持",
+      "studio_apiAccess": "支持",
+      "studio_commercialLicense": "支持"
+    },
+    "faq": {
+      "switch": {
+        "question": "可以更换套餐吗？",
+        "answer": "可以，您可以随时升级或降级。更改将在下一个计费周期开始时生效。"
+      },
+      "refund": {
+        "question": "提供退款吗？",
+        "answer": "是的。如果您在前7天内不满意，请联系我们获取全额退款。"
+      },
+      "cancel": {
+        "question": "可以随时取消吗？",
+        "answer": "当然可以。您可以随时在控制台中取消订阅。在当前计费周期结束前，您仍可继续使用所有功能。"
+      }
+    }
+  },
+  "faq": {
+    "sectionLabel": "常见问题",
+    "title": "常见问题解答",
+    "items": [
+      {
+        "question": "Uplocal 如何在没有服务器的情况下放大图片？",
+        "answer": "Uplocal 使用 Real-ESRGAN（一种AI图片放大模型），将其编译为 WebAssembly。这意味着AI模型直接在您的浏览器中、在您自己的设备上运行。您的图片永远不会离开您的电脑。"
+      },
+      {
+        "question": "有文件大小限制吗？",
+        "answer": "免费用户可以放大最大5MB的图片。Pro 和 Studio 用户可以处理最大10MB的图片。对于非常大的图片，我们建议使用4000x4000像素以内的图片以获得最佳效果。"
+      },
+      {
+        "question": "支持哪些图片格式？",
+        "answer": "Uplocal 接受 PNG、JPEG、WebP 和 BMP 作为输入格式。输出可以保存为 PNG、JPEG 或 WebP，并支持调节画质设置。"
+      },
+      {
+        "question": "放大需要多长时间？",
+        "answer": "处理时间取决于图片大小和您的设备性能。一张典型的1080p图片放大2倍，在现代笔记本电脑上大约需要5到15秒。4倍和8倍放大会相应需要更长时间。"
+      },
+      {
+        "question": "可以取消订阅吗？",
+        "answer": "可以，您可以随时从控制台取消订阅。在当前计费周期结束之前，您仍可继续使用套餐内的所有功能。"
+      },
+      {
+        "question": "在手机上能用吗？",
+        "answer": "Uplocal 可在支持 WebAssembly 的移动浏览器上运行，包括 iOS 和 Android 上的 Chrome 和 Safari。实际性能因设备而异。"
+      }
+    ],
+    "seeAll": "查看所有问题"
+  },
+  "about": {
+    "sectionLabel": "关于 Uplocal",
+    "title": "尊重隐私的AI图片放大",
+    "intro": "Uplocal 建立在一个简单的原则之上：您的图片属于您自己。大多数在线放大工具要求您将文件上传到远程服务器，在那里文件会被处理、存储，有时甚至在您不知情的情况下被使用。我们采取了一种根本不同的方式。Uplocal 在您的设备上处理每一个像素。您的图片永远不会离开您的浏览器。没有任何服务器能看到您的文件。",
+    "howTitle": "工作原理",
+    "howContent": "Uplocal 使用 ESRGAN（Enhanced Super Resolution Generative Adversarial Network），这是一种专门训练用于提高图像分辨率、同时保留细节和减少伪影的AI模型。该模型通过 TensorFlow.js 直接在您的浏览器中运行，借助 WebGL 或 WebGPU 加速来使用设备的GPU。当您拖入一张图片时，AI模型会加载一次并在本地缓存。随后图片会以分块方式处理，以高效管理内存。放大后的结果被拼接完成后即可下载，整个过程中没有一个字节离开您的设备。",
+    "whyTitle": "为什么选择本地处理",
+    "whyContent": "基于服务器的放大服务会将您的图片通过互联网传输到远程数据中心。这带来了隐私风险、延迟、带宽成本以及对第三方可用性的依赖。使用 Uplocal，计算就在数据已经存在的地方进行：您的设备上。这意味着在首次加载模型后该工具可以离线工作，没有上传队列，您的图片保持100%私密。这也意味着处理零服务器成本，使我们能够提供慷慨的免费方案。",
+    "techTitle": "技术实现",
+    "techContent": "TensorFlow.js 使得在现代浏览器中以接近原生的速度运行训练好的神经网络成为可能。Uplocal 利用 WebGL 和 WebGPU 后端进行GPU加速推理。图片以重叠的分块方式处理（分块大小根据您的方案可配置），并无缝拼接。AI模型权重在首次使用时下载，并缓存在浏览器存储中以供后续即时加载。输出格式包括PNG、JPEG和WebP，画质可调。Pro和Studio用户可使用更大的处理分块，从而获得更快的推理速度。",
+    "companyTitle": "由 HiddenLab 打造",
+    "companyContent": "Uplocal 由 HiddenLab 开发，这是一家专注于构建隐私优先工具的法国软件工作室。我们相信，强大的技术不应该要求您牺牲自己的数据。如果您有任何问题、反馈或想与我们联系，请发送邮件至 contact@metalya.fr。"
+  },
+  "legal": {
+    "privacy": {
+      "title": "隐私政策",
+      "lastUpdated": "最后更新"
+    },
+    "terms": {
+      "title": "服务条款",
+      "lastUpdated": "最后更新"
+    }
+  },
+  "footer": {
+    "description": "AI图片放大，100%在浏览器中完成。您的文件始终留在您的设备上。",
+    "product": "产品",
+    "company": "公司",
+    "legal": "法律",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "copyright": "Uplocal. 保留所有权利。",
+    "madeBy": "由...创建"
+  },
+  "auth": {
+    "signinTitle": "欢迎回来",
+    "signupTitle": "创建您的账号",
+    "google": "Google",
+    "noAccount": "还没有账号？",
+    "hasAccount": "已有账号？",
+    "signupLink": "创建账号",
+    "signinLink": "登录",
+    "emailSent": "请查看您的邮箱以获取登录链接。",
+    "error": "出了点问题，请重试。"
+  },
+  "dashboard": {
+    "title": "控制台",
+    "welcome": "欢迎回来",
+    "usage": "本月使用情况",
+    "history": "最近的放大记录",
+    "plan": "当前套餐",
+    "upgrade": "升级套餐",
+    "manageBilling": "管理账单",
+    "settings": "设置",
+    "settingsTitle": "账号设置",
+    "historyTitle": "放大历史",
+    "noHistory": "还没有放大记录。试试您的第一次放大。",
+    "upscaleNow": "放大一张图片",
+    "totalUpscales": "总放大次数",
+    "avgTime": "平均耗时",
+    "defaultScale": "默认放大倍数",
+    "defaultFormat": "默认格式",
+    "defaultQuality": "默认画质",
+    "theme": "主题",
+    "language": "语言",
+    "save": "保存更改",
+    "saved": "设置已保存。"
+  },
+  "common": {
+    "loading": "加载中",
+    "error": "出了点问题",
+    "retry": "重试",
+    "back": "返回",
+    "notFound": "页面未找到",
+    "notFoundDescription": "您要找的页面不存在或已被移动。",
+    "backHome": "返回首页",
+    "yes": "是",
+    "no": "否",
+    "close": "关闭",
+    "skipToContent": "跳至内容",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "selectLanguage": "选择语言",
+    "tableOfContents": "目录",
+    "onThisPage": "在本页"
+  },
+  "upscaler2": {
+    "uploadedImage": "已上传的图片",
+    "originalImage": "原始图片",
+    "upscaledImage": "放大后的图片",
+    "beforeAfterSlider": "前后对比滑块",
+    "upscalingProgress": "放大进度",
+    "downloadButton": "下载",
+    "errorStatus": "错误",
+    "waitingStatus": "等待中",
+    "doneStatus": "完成",
+    "pendingStatus": "待处理",
+    "addImages": "添加图片",
+    "removeFile": "移除",
+    "widthLabel": "宽度",
+    "heightLabel": "高度",
+    "pixelsUnit": "px",
+    "lockRatio": "锁定宽高比",
+    "unlockRatio": "解锁宽高比",
+    "scaleDemo": "2x 至 8x",
+    "builtDifferent": "与众不同",
+    "lockedScale": "已锁定"
+  },
+  "settings": {
+    "title": "设置",
+    "themeSystem": "系统",
+    "themeLight": "浅色",
+    "themeDark": "深色",
+    "languageEn": "英语",
+    "languageFr": "法语",
+    "languageDe": "德语",
+    "languageEs": "西班牙语",
+    "languagePt": "葡萄牙语",
+    "languageJa": "日语",
+    "languageKo": "韩语",
+    "languageZh": "中文",
+    "languageAr": "阿拉伯语",
+    "languageHi": "印地语"
+  },
+  "legalPages": {
+    "privacy": {
+      "metaTitle": "隐私政策 | Uplocal",
+      "metaDescription": "了解 Uplocal 如何处理您的数据。您的图片永远不会离开您的设备。请阅读我们完整的隐私政策。",
+      "title": "隐私政策",
+      "lastUpdated": "最后更新时间: 2026 年 4 月 10 日",
+      "sections": {
+        "introduction": "简介",
+        "imageProcessing": "图片处理",
+        "dataWeCollect": "我们收集的数据",
+        "howWeUseData": "我们如何使用您的数据",
+        "thirdParty": "第三方服务",
+        "cookies": "Cookie",
+        "storage": "数据存储与安全",
+        "retention": "数据保留",
+        "rights": "您的权利 (GDPR)",
+        "contact": "联系我们"
+      },
+      "content": {
+        "introP1": "Uplocal 是一项基于浏览器的 AI 图片放大服务,由在法国注册的公司 HiddenLab (SIRET: 980 715 809 00011) 运营。本隐私政策说明当您使用 uplocal.app 网站及通过该网站提供的服务时,我们如何收集、使用和保护您的个人数据。",
+        "introP2": "我们致力于保护您的隐私。Uplocal 的核心设计原则是,您的图片完全在您自己的设备上处理。任何图片数据都不会传输到我们的服务器或任何第三方。本政策详细描述了我们收集哪些信息、为何收集这些信息,以及您如何行使对这些数据的权利。",
+        "introP3": "通过创建账户或使用我们的服务,您确认已阅读并理解本政策。如果您不同意本政策的任何部分,请勿使用我们的服务。",
+        "imageProcessingP1": "这是我们隐私政策中最重要的部分。与大多数在线图片放大服务不同,Uplocal 使用 WebAssembly 和 TensorFlow.js 完全在您的网页浏览器内处理图片。AI 模型在您自己设备的处理器或 GPU 上运行。",
+        "imageProcessingP2": "当您将图片上传到 Uplocal 时,会发生以下情况: 图片保留在您的浏览器内存中,AI 模型在本地进行处理,放大后的结果返回给您,您可以下载它。在此过程中的任何时候,您的图片数据都不会被发送到我们的服务器、存储在任何数据库中、传输给第三方或被除您以外的任何人访问。",
+        "imageProcessingP3": "您可以自己验证这一点,方法是打开浏览器的开发者工具,在使用 Uplocal 时查看网络选项卡。您不会看到任何关于您图片的上传请求。",
+        "dataCollectP1": "我们收集最少的个人数据以运营您的账户并处理付款。具体来说,我们收集:",
+        "dataCollectList": "账户信息: 当您通过 Google OAuth 登录时的电子邮件地址和姓名。|使用元数据: 关于您放大操作的技术信息,例如所使用的比例 (2x、4x、8x)、输入和输出尺寸、处理时间和文件格式。我们不收集实际的图片。|订阅数据: 您的活跃套餐 (Free、Pro 或 Studio)、订阅状态和计费周期日期。支付卡详细信息由 Stripe 独家处理和存储,从不进入我们的服务器。|偏好设置: 您的默认设置,例如主题、语言和默认放大选项。",
+        "useDataP1": "我们将收集的有限数据用于以下目的: 创建和管理您的账户、根据您的订阅套餐执行使用限制、在您的仪表板中显示您的使用历史和统计数据、通过 Stripe 处理订阅付款,以及发送账户确认和账单通知等必要的服务电子邮件。",
+        "useDataP2": "我们不会将您的数据用于广告、画像分析或与提供 Uplocal 服务无关的任何目的。",
+        "thirdPartyP1": "Uplocal 的运营依赖于少数第三方服务。每项服务仅接收其功能所需的最少数据:",
+        "thirdPartyList": "Google OAuth: 处理身份验证。接收您的登录请求并返回经过验证的电子邮件和姓名。|Stripe: 处理所有付款。通过其安全表单直接接收您的付款信息。我们从不查看或存储您的卡片详细信息。|IONOS: 在位于德国的专用 VPS 上托管我们的网站基础设施。处理网络请求,但从不查看您的图片。|MongoDB Atlas: 将您的账户数据和使用元数据存储在我们的数据库中。",
+        "cookiesP1": "Uplocal 仅使用服务运行所需的必要 Cookie。这些包括:",
+        "cookiesList": "身份验证会话 Cookie: 使您在各页面间保持登录状态。|主题偏好: 记住您的浅色或深色模式选择。|CSRF 保护令牌: 防止跨站请求伪造攻击。|Stripe 欺诈防范: 在付款期间用于检测欺诈性交易。",
+        "cookiesP2": "我们不使用任何可识别您个人身份的跟踪 Cookie、广告 Cookie 或第三方分析 Cookie。",
+        "storageP1": "您的账户数据存储在 MongoDB Atlas 中,这是一项具有业界标准安全实践的托管数据库服务。您的浏览器与我们服务器之间的所有数据传输均通过 HTTPS 加密。由于我们使用 Google OAuth 进行身份验证,因此您的密码永远不会被存储。支付卡信息由 Stripe 独家处理,从不进入我们的基础设施。",
+        "retentionP1": "只要您的账户处于活跃状态,我们就会保留您的账户数据。如果您删除账户,所有相关数据将在 30 天内从我们的数据库中永久删除。您可以随时通过 contact@metalya.fr 联系我们请求删除账户。",
+        "rightsP1": "根据通用数据保护条例 (GDPR) 和类似的隐私法律,您对自己的个人数据享有以下权利: 访问数据的权利、更正不准确数据的权利、删除数据的权利、数据可携带权、反对处理的权利、限制处理的权利,以及向监管机构 (例如法国的 CNIL) 投诉的权利。",
+        "rightsP2": "要行使任何这些权利,请通过 contact@metalya.fr 联系我们。我们将按照法律要求在 30 天内回应您的请求。",
+        "contactP1": "如果您对本隐私政策或我们的数据处理方式有任何疑问,请联系我们:",
+        "contactList": "HiddenLab (SIRET: 980 715 809 00011)|电子邮件: contact@metalya.fr|网站: hiddenlab.fr"
+      }
+    },
+    "terms": {
+      "metaTitle": "服务条款 | Uplocal",
+      "metaDescription": "阅读使用 Uplocal AI 图片放大器的条款和条件。",
+      "title": "服务条款",
+      "lastUpdated": "最后更新时间: 2026 年 4 月 10 日",
+      "sections": {
+        "acceptance": "接受条款",
+        "service": "服务说明",
+        "account": "账户注册",
+        "subscription": "订阅套餐",
+        "cancellation": "取消与退款",
+        "ip": "知识产权",
+        "use": "可接受的使用",
+        "privacy": "隐私",
+        "liability": "责任限制",
+        "modifications": "条款变更",
+        "governing": "适用法律",
+        "contact": "联系我们"
+      },
+      "content": {
+        "acceptanceP1": "通过访问或使用 Uplocal,您同意受这些服务条款和我们的隐私政策的约束。如果您不同意这些条款,请勿使用我们的服务。Uplocal 由在法国注册的公司 HiddenLab (SIRET: 980 715 809 00011) 运营。",
+        "serviceP1": "Uplocal 是一项基于浏览器的 AI 图片放大服务。实际的图片处理完全在您的网页浏览器内使用 WebAssembly 和 TensorFlow.js 技术进行。我们提供三个订阅级别: Free、Pro 和 Studio。每个级别在每日放大次数、最大缩放系数、文件大小、批量处理和其他功能上提供不同的限制。",
+        "accountP1": "要使用我们的付费功能并跟踪您的使用历史,您必须创建一个账户。我们使用 Google OAuth 进行身份验证。您负责维护您 Google 账户的安全以及在您的 Uplocal 账户下发生的所有活动。您必须提供准确的信息,并且必须年满 16 岁才能使用我们的服务。",
+        "subscriptionP1": "Uplocal 提供以下订阅套餐:",
+        "subscriptionList": "Free: 每天 1 次放大,最大 2x,文件大小限制 5MB,PNG 和 JPEG 输出。|Pro (每月 9 美元或每年 79 美元): 无限次放大,最高 4x 缩放,10MB 文件限制,所有输出格式,最多 10 张图片的批量处理。|Studio (每月 24 美元或每年 199 美元): 无限次放大,最高 8x 缩放,10MB 文件限制,最多 50 张图片的批量处理,自定义输出尺寸,API 访问,以及商业许可。",
+        "subscriptionP2": "订阅通过 Stripe 按月或按年计费。价格以美元计算,不包括任何适用税款。我们可能随时更新价格,但现有订阅者将在其计费周期内保留当前价格。",
+        "cancellationP1": "您可以随时从您的仪表板取消订阅或联系我们。取消后,您将保留对付费功能的访问权限,直到当前计费周期结束。我们不对部分计费周期提供退款,但为新订阅者提供 7 天退款保证,如果您对服务不满意。",
+        "ipP1": "您保留对上传的图片和我们生成的放大输出的所有权利。我们不主张对您内容的所有权。Uplocal 服务本身 (包括其设计、代码、品牌和 AI 模型集成) 是 HiddenLab 的知识产权,受国际版权法保护。未经我们书面许可,您不得复制、重新分发或创建我们服务的衍生作品。",
+        "useP1": "您同意不将 Uplocal 用于以下任何活动: 处理非法内容,包括您不拥有的受版权保护的材料、儿童性虐待材料或违反任何适用法律的内容; 对我们的源代码或 AI 模型进行逆向工程、反编译或试图提取; 使用自动化工具滥用我们的服务或规避使用限制; 与他人共享您的账户凭据; 或任何可能损害我们服务或其用户的活动。",
+        "privacyP1": "您的隐私对我们的服务至关重要。请参阅我们的隐私政策以了解我们如何处理您数据的完整详细信息。最重要的一点是,您的图片完全在您的浏览器中处理,从不到达我们的服务器。",
+        "liabilityP1": "Uplocal 按现状提供,不提供任何形式的保证。我们不保证 AI 放大的特定质量结果,因为质量取决于您的输入图片和设备硬件。在法律允许的最大范围内,HiddenLab 及其关联公司对因您使用服务而产生的任何间接、附带、特殊或后果性损害概不负责。我们的总责任不超过您在索赔前 12 个月内向我们支付的金额。",
+        "modificationsP1": "我们可能会不时更新这些条款。对于重大变更,我们将通过电子邮件通知您。在变更后继续使用服务即构成对更新条款的接受。",
+        "governingP1": "这些条款受法国法律管辖。因您使用 Uplocal 而产生的任何争议应受法国法院的专属管辖。欧盟消费者还可以使用欧洲在线争议解决平台。",
+        "contactP1": "如对这些条款有任何疑问,请联系我们:",
+        "contactList": "HiddenLab (SIRET: 980 715 809 00011)|电子邮件: contact@metalya.fr|网站: hiddenlab.fr"
+      }
+    }
+  }
+}

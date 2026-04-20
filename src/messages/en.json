@@ -1,0 +1,452 @@
+{
+  "metadata": {
+    "title": "Uplocal: AI Image Upscaler, 100% Private, Runs in Your Browser",
+    "description": "Upscale your images up to 8x using AI directly in your browser. No upload, no server, total privacy. Your files never leave your device.",
+    "keywords": "image upscaler, AI image enhancer, upscale image online, increase image resolution, enhance photo quality, private image upscaler, browser image upscaler"
+  },
+  "pricingMeta": {
+    "title": "Pricing | Uplocal",
+    "description": "Simple, transparent pricing for AI image upscaling. Free tier available. Pro and Studio plans for professionals."
+  },
+  "upscaleMeta": {
+    "title": "Upscale Your Image | Uplocal",
+    "description": "Upload and upscale your image up to 8x with AI. 100% private, runs in your browser."
+  },
+  "faqMeta": {
+    "title": "FAQ | Uplocal",
+    "description": "Frequently asked questions about Uplocal AI image upscaler. How it works, supported formats, pricing."
+  },
+  "aboutMeta": {
+    "title": "About | Uplocal",
+    "description": "Learn about Uplocal, the privacy first AI image upscaler built by HiddenLab. 100% browser based processing."
+  },
+  "nav": {
+    "upscale": "Upscale",
+    "pricing": "Pricing",
+    "about": "About",
+    "faq": "FAQ",
+    "signin": "Sign in",
+    "signup": "Get started",
+    "dashboard": "Dashboard",
+    "signout": "Sign out",
+    "themeLight": "Light",
+    "themeDark": "Dark"
+  },
+  "hero": {
+    "title": "Upscale any image with AI. Right in your browser.",
+    "subtitle": "Your images never leave your device. Uplocal runs entirely in your browser using WebAssembly. No server, no upload, no compromise on privacy.",
+    "cta": "Upscale an image now",
+    "secondaryCta": "See pricing"
+  },
+  "trust": {
+    "browser": "100% browser based",
+    "noUpload": "No image upload"
+  },
+  "howItWorks": {
+    "sectionLabel": "How It Works",
+    "step1": {
+      "number": "01",
+      "title": "Drop Your Image",
+      "description": "Drag and drop any image or click to browse. We accept PNG, JPEG, WebP, and BMP files."
+    },
+    "step2": {
+      "number": "02",
+      "title": "Choose Your Scale",
+      "description": "Select 2x, 4x, or 8x upscaling. Pick your output format and quality level."
+    },
+    "step3": {
+      "number": "03",
+      "title": "Download Instantly",
+      "description": "Your upscaled image is ready in seconds. Download it directly, no account needed for your first upscale."
+    }
+  },
+  "features": {
+    "sectionLabel": "Why Uplocal",
+    "privacy": {
+      "title": "100% Private",
+      "description": "Your images are processed locally in your browser. Nothing is uploaded. Nothing is stored. Nobody sees your files."
+    },
+    "quality": {
+      "title": "AI Powered Quality",
+      "description": "Real-ESRGAN neural network running via WebAssembly delivers professional grade upscaling with artifact removal and detail enhancement."
+    },
+    "speed": {
+      "title": "Instant Results",
+      "description": "No waiting in server queues. Processing starts immediately on your hardware. Most images upscale in under 10 seconds."
+    },
+    "formats": {
+      "title": "All Formats Supported",
+      "description": "Upload PNG, JPEG, WebP, or BMP. Download in your preferred format with adjustable quality settings."
+    }
+  },
+  "upscaler": {
+    "title": "Upscale Your Image",
+    "dropzone": "Drop your image here or click to browse",
+    "dropzoneFormats": "PNG, JPEG, WebP, BMP up to 10MB",
+    "scaleLabel": "Scale",
+    "formatLabel": "Output format",
+    "qualityLabel": "Quality",
+    "upscaleButton": "Upscale",
+    "processing": "Processing your image",
+    "download": "Download upscaled image",
+    "compare": "Compare before and after",
+    "newImage": "Upscale another image",
+    "freeLimit": "You have used your free upscale for today",
+    "upgradePrompt": "Upgrade to unlock unlimited upscaling at 4x and 8x",
+    "batchTitle": "Batch Processing",
+    "batchDescription": "Drag multiple images to process them all at once",
+    "originalSize": "Original",
+    "upscaledSize": "Upscaled",
+    "processingTime": "Processing time",
+    "fileSize": "File size",
+    "loadingModel": "Loading AI model",
+    "errorUnsupported": "This file format is not supported. Please use PNG, JPEG, WebP, or BMP.",
+    "errorTooLarge": "This file is too large. Maximum size is",
+    "errorProcessing": "Something went wrong. Please try again.",
+    "errorWasm": "Your browser does not support WebAssembly. Please use a modern browser like Chrome, Firefox, Safari, or Edge.",
+    "offline": "You are offline. Upscaling still works.",
+    "tryIt": "Try it now",
+    "pro": "Pro",
+    "studio": "Studio",
+    "customDimensions": "Custom dimensions"
+  },
+  "pricing": {
+    "sectionLabel": "Pricing",
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Start free, upgrade when you need more power.",
+    "free": {
+      "name": "Free",
+      "price": "0",
+      "period": "forever",
+      "features": [
+        "1 upscale per day",
+        "2x maximum scale",
+        "PNG and JPEG output",
+        "Standard processing"
+      ],
+      "cta": "Get started free"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "Most popular",
+      "priceMonthly": "9",
+      "priceYearly": "79",
+      "period": "month",
+      "periodYearly": "year",
+      "features": [
+        "Unlimited upscales",
+        "Up to 4x scale",
+        "All output formats",
+        "Batch processing up to 10 images",
+        "Priority model loading"
+      ],
+      "cta": "Start Pro"
+    },
+    "studio": {
+      "name": "Studio",
+      "priceMonthly": "24",
+      "priceYearly": "199",
+      "period": "month",
+      "periodYearly": "year",
+      "features": [
+        "Everything in Pro",
+        "Up to 8x scale",
+        "Batch processing up to 50 images",
+        "Custom output dimensions",
+        "API access",
+        "Commercial license"
+      ],
+      "cta": "Start Studio"
+    },
+    "toggle": {
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "save": "Save 27%"
+    },
+    "currency": "$",
+    "comparison": {
+      "title": "Feature Comparison",
+      "feature": "Feature",
+      "upscalesPerDay": "Upscales per day",
+      "maxScale": "Maximum scale",
+      "outputFormats": "Output formats",
+      "batchProcessing": "Batch processing",
+      "maxFileSize": "Maximum file size",
+      "customDimensions": "Custom dimensions",
+      "apiAccess": "API access",
+      "commercialLicense": "Commercial license",
+      "free_upscalesPerDay": "1",
+      "free_maxScale": "2x",
+      "free_outputFormats": "PNG, JPEG",
+      "free_batchProcessing": "No",
+      "free_maxFileSize": "5MB",
+      "free_customDimensions": "No",
+      "free_apiAccess": "No",
+      "free_commercialLicense": "No",
+      "pro_upscalesPerDay": "Unlimited",
+      "pro_maxScale": "4x",
+      "pro_outputFormats": "PNG, JPEG, WebP",
+      "pro_batchProcessing": "Up to 10",
+      "pro_maxFileSize": "10MB",
+      "pro_customDimensions": "No",
+      "pro_apiAccess": "No",
+      "pro_commercialLicense": "No",
+      "studio_upscalesPerDay": "Unlimited",
+      "studio_maxScale": "8x",
+      "studio_outputFormats": "PNG, JPEG, WebP",
+      "studio_batchProcessing": "Up to 50",
+      "studio_maxFileSize": "10MB",
+      "studio_customDimensions": "Yes",
+      "studio_apiAccess": "Yes",
+      "studio_commercialLicense": "Yes"
+    },
+    "faq": {
+      "switch": {
+        "question": "Can I switch plans?",
+        "answer": "Yes, you can upgrade or downgrade at any time. Changes take effect at the start of your next billing period."
+      },
+      "refund": {
+        "question": "Do you offer refunds?",
+        "answer": "Yes. If you are not satisfied within the first 7 days, contact us for a full refund."
+      },
+      "cancel": {
+        "question": "Can I cancel anytime?",
+        "answer": "Absolutely. Cancel from your dashboard at any time. You keep access until the end of your billing period."
+      }
+    }
+  },
+  "faq": {
+    "sectionLabel": "Questions",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How does Uplocal upscale images without a server?",
+        "answer": "Uplocal uses Real-ESRGAN, an AI upscaling model, compiled to WebAssembly. This means the AI model runs directly in your browser, on your own device. Your images never leave your computer."
+      },
+      {
+        "question": "Is there a file size limit?",
+        "answer": "Free users can upscale images up to 5MB. Pro and Studio users can process images up to 10MB. For best results with very large images, we recommend starting with images under 4000x4000 pixels."
+      },
+      {
+        "question": "What image formats are supported?",
+        "answer": "Uplocal accepts PNG, JPEG, WebP, and BMP as input. Output can be saved as PNG, JPEG, or WebP with adjustable quality settings."
+      },
+      {
+        "question": "How long does upscaling take?",
+        "answer": "Processing time depends on the image size and your device. A typical 1080p image upscaled to 2x takes 5 to 15 seconds on a modern laptop. 4x and 8x scales take proportionally longer."
+      },
+      {
+        "question": "Can I cancel my subscription?",
+        "answer": "Yes, you can cancel anytime from your dashboard. You will retain access to your plan features until the end of your current billing period."
+      },
+      {
+        "question": "Does it work on mobile?",
+        "answer": "Uplocal works on mobile browsers that support WebAssembly, including Chrome and Safari on iOS and Android. Performance will vary based on your device capabilities."
+      }
+    ],
+    "seeAll": "See all questions"
+  },
+  "about": {
+    "sectionLabel": "About Uplocal",
+    "title": "AI Image Upscaling That Respects Your Privacy",
+    "intro": "Uplocal was built on a simple principle: your images belong to you. Most online upscaling tools require you to upload your files to remote servers, where they are processed, stored, and sometimes used without your knowledge. We took a fundamentally different approach. Uplocal processes every single pixel on your device. Your images never leave your browser. No server ever sees your files.",
+    "howTitle": "How It Works",
+    "howContent": "Uplocal uses ESRGAN (Enhanced Super Resolution Generative Adversarial Network), an AI model specifically trained to increase image resolution while preserving detail and reducing artifacts. The model runs via TensorFlow.js directly in your browser, using your device's GPU through WebGL or WebGPU acceleration. When you drop an image, the AI model is loaded once and cached locally. Your image is then processed in tiles to manage memory efficiently. The upscaled result is assembled and made available for download, all without a single byte leaving your device.",
+    "whyTitle": "Why Local Processing",
+    "whyContent": "Server based upscaling services transmit your images over the internet to remote data centers. This introduces privacy risks, latency, bandwidth costs, and dependency on third party availability. With Uplocal, the computation happens where the data already lives: on your machine. This means the tool works offline after the first model load, there are no upload queues, and your images remain 100% private. It also means zero server cost for processing, which allows us to offer a generous free tier.",
+    "techTitle": "The Technology",
+    "techContent": "TensorFlow.js enables running trained neural networks at near native speed in modern browsers. Uplocal leverages WebGL and WebGPU backends for GPU accelerated inference. Images are processed in overlapping tiles (configurable patch size based on your plan) and reassembled seamlessly. The AI model weights are downloaded on first use and cached in your browser storage for instant subsequent loads. Output formats include PNG, JPEG, and WebP with adjustable quality. Pro and Studio users benefit from larger processing tiles for faster inference.",
+    "companyTitle": "Built by HiddenLab",
+    "companyContent": "Uplocal is developed by HiddenLab, a French software studio focused on building privacy first tools. We believe powerful technology should not require you to sacrifice your data. If you have questions, feedback, or want to reach out, contact us at contact@metalya.fr."
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated"
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last updated"
+    }
+  },
+  "footer": {
+    "description": "AI image upscaling, 100% in your browser. Your files never leave your device.",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "Uplocal. All rights reserved.",
+    "madeBy": "Created by"
+  },
+  "auth": {
+    "signinTitle": "Welcome Back",
+    "signupTitle": "Create Your Account",
+    "google": "Google",
+    "noAccount": "No account yet?",
+    "hasAccount": "Already have an account?",
+    "signupLink": "Create one",
+    "signinLink": "Sign in",
+    "emailSent": "Check your email for a sign in link.",
+    "error": "Something went wrong. Please try again."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back",
+    "usage": "Usage This Month",
+    "history": "Recent Upscales",
+    "plan": "Current Plan",
+    "upgrade": "Upgrade plan",
+    "manageBilling": "Manage billing",
+    "settings": "Settings",
+    "settingsTitle": "Account Settings",
+    "historyTitle": "Upscale History",
+    "noHistory": "No upscales yet. Try your first one.",
+    "upscaleNow": "Upscale an image",
+    "totalUpscales": "Total upscales",
+    "avgTime": "Average time",
+    "defaultScale": "Default scale",
+    "defaultFormat": "Default format",
+    "defaultQuality": "Default quality",
+    "theme": "Theme",
+    "language": "Language",
+    "save": "Save changes",
+    "saved": "Settings saved."
+  },
+  "common": {
+    "loading": "Loading",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "back": "Go back",
+    "notFound": "Page Not Found",
+    "notFoundDescription": "The page you are looking for does not exist or has been moved.",
+    "backHome": "Back to homepage",
+    "yes": "Yes",
+    "no": "No",
+    "close": "Close",
+    "skipToContent": "Skip to content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "selectLanguage": "Select language",
+    "tableOfContents": "Table of contents",
+    "onThisPage": "On this page"
+  },
+  "upscaler2": {
+    "uploadedImage": "Uploaded image",
+    "originalImage": "Original image",
+    "upscaledImage": "Upscaled image",
+    "beforeAfterSlider": "Before and after comparison slider",
+    "upscalingProgress": "Upscaling progress",
+    "downloadButton": "Download",
+    "errorStatus": "Error",
+    "waitingStatus": "Waiting",
+    "doneStatus": "Done",
+    "pendingStatus": "Pending",
+    "addImages": "Add images",
+    "removeFile": "Remove",
+    "widthLabel": "Width",
+    "heightLabel": "Height",
+    "pixelsUnit": "px",
+    "lockRatio": "Lock aspect ratio",
+    "unlockRatio": "Unlock aspect ratio",
+    "scaleDemo": "2x to 8x",
+    "builtDifferent": "Built different",
+    "lockedScale": "Locked"
+  },
+  "settings": {
+    "title": "Settings",
+    "themeSystem": "System",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "languageEn": "English",
+    "languageFr": "French",
+    "languageDe": "German",
+    "languageEs": "Spanish",
+    "languagePt": "Portuguese",
+    "languageJa": "Japanese",
+    "languageKo": "Korean",
+    "languageZh": "Chinese",
+    "languageAr": "Arabic",
+    "languageHi": "Hindi"
+  },
+  "legalPages": {
+    "privacy": {
+      "metaTitle": "Privacy Policy | Uplocal",
+      "metaDescription": "Learn how Uplocal handles your data. Your images never leave your device. Read our complete privacy policy.",
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: April 10, 2026",
+      "sections": {
+        "introduction": "Introduction",
+        "imageProcessing": "Image Processing",
+        "dataWeCollect": "Data We Collect",
+        "howWeUseData": "How We Use Your Data",
+        "thirdParty": "Third Party Services",
+        "cookies": "Cookies",
+        "storage": "Data Storage and Security",
+        "retention": "Data Retention",
+        "rights": "Your Rights (GDPR)",
+        "contact": "Contact"
+      },
+      "content": {
+        "introP1": "Uplocal is a browser based AI image upscaling service operated by HiddenLab (SIRET: 980 715 809 00011), a company registered in France. This privacy policy explains how we collect, use, and protect your personal data when you use our website at uplocal.app and the services available through it.",
+        "introP2": "We are committed to protecting your privacy. The core design principle of Uplocal is that your images are processed entirely on your own device. No image data is ever transmitted to our servers or any third party. This policy describes in detail what information we do collect, why we collect it, and how you can exercise your rights over that data.",
+        "introP3": "By creating an account or using our services, you acknowledge that you have read and understood this policy. If you do not agree with any part of this policy, please do not use our services.",
+        "imageProcessingP1": "This is the most important section of our privacy policy. Unlike most online image upscaling services, Uplocal processes your images entirely within your web browser using WebAssembly and TensorFlow.js. The AI model runs on your own device's processor or GPU.",
+        "imageProcessingP2": "When you upload an image to Uplocal, the following happens: the image stays in your browser's memory, the AI model processes it locally, the upscaled result is returned to you, and you can download it. At no point during this process is your image data sent to our servers, stored in any database, transmitted to third parties, or accessible by anyone other than you.",
+        "imageProcessingP3": "You can verify this yourself by opening your browser's developer tools and inspecting the Network tab while using Uplocal. You will see no upload requests for your images.",
+        "dataCollectP1": "We collect minimal personal data to operate your account and process payments. Specifically, we collect:",
+        "dataCollectList": "Account information: your email address and name when you sign in via Google OAuth.|Usage metadata: technical information about your upscale operations such as the scale used (2x, 4x, 8x), input and output dimensions, processing time, and file format. We do NOT collect the actual images.|Subscription data: your active plan (Free, Pro, or Studio), subscription status, and billing period dates. Payment card details are handled and stored exclusively by Stripe and never reach our servers.|Preferences: your default settings such as theme, language, and default upscale options.",
+        "useDataP1": "We use the limited data we collect for the following purposes: to create and manage your account, to enforce usage limits according to your subscription plan, to display your usage history and statistics in your dashboard, to process subscription payments via Stripe, and to send essential service emails such as account confirmations and billing notifications.",
+        "useDataP2": "We do not use your data for advertising, profiling, or any purpose unrelated to providing the Uplocal service.",
+        "thirdPartyP1": "Uplocal relies on a small number of third party services to operate. Each service receives only the minimum data necessary for its function:",
+        "thirdPartyList": "Google OAuth: handles authentication. Receives your sign in request and returns your verified email and name.|Stripe: handles all payment processing. Receives your payment information directly via their secure form. We never see or store your card details.|IONOS: hosts our website infrastructure on a private VPS in Germany. Processes web requests but never sees your images.|MongoDB Atlas: stores your account data and usage metadata in our database.",
+        "cookiesP1": "Uplocal uses only essential cookies required for the service to function. These include:",
+        "cookiesList": "Authentication session cookie: keeps you signed in across pages.|Theme preference: remembers your light or dark mode choice.|CSRF protection token: prevents cross site request forgery attacks.|Stripe fraud prevention: used during payment to detect fraudulent transactions.",
+        "cookiesP2": "We do not use any tracking cookies, advertising cookies, or third party analytics cookies that identify you personally.",
+        "storageP1": "Your account data is stored in MongoDB Atlas, a managed database service with industry standard security practices. All data transmission between your browser and our servers is encrypted via HTTPS. Your password is never stored because we use Google OAuth for authentication. Payment card information is handled exclusively by Stripe and never reaches our infrastructure.",
+        "retentionP1": "We retain your account data for as long as your account is active. If you delete your account, all associated data is permanently removed from our database within 30 days. You can request the deletion of your account at any time by contacting us at contact@metalya.fr.",
+        "rightsP1": "Under the General Data Protection Regulation (GDPR) and similar privacy laws, you have the following rights regarding your personal data: the right to access your data, the right to correct inaccurate data, the right to delete your data, the right to data portability, the right to object to processing, the right to restrict processing, and the right to lodge a complaint with a supervisory authority such as the CNIL in France.",
+        "rightsP2": "To exercise any of these rights, please contact us at contact@metalya.fr. We will respond to your request within 30 days as required by law.",
+        "contactP1": "If you have any questions about this privacy policy or our data practices, please contact us:",
+        "contactList": "HiddenLab (SIRET: 980 715 809 00011)|Email: contact@metalya.fr|Website: hiddenlab.fr"
+      }
+    },
+    "terms": {
+      "metaTitle": "Terms of Service | Uplocal",
+      "metaDescription": "Read the terms and conditions for using Uplocal AI image upscaler.",
+      "title": "Terms of Service",
+      "lastUpdated": "Last updated: April 10, 2026",
+      "sections": {
+        "acceptance": "Acceptance of Terms",
+        "service": "Description of Service",
+        "account": "Account Registration",
+        "subscription": "Subscription Plans",
+        "cancellation": "Cancellation and Refunds",
+        "ip": "Intellectual Property",
+        "use": "Acceptable Use",
+        "privacy": "Privacy",
+        "liability": "Limitation of Liability",
+        "modifications": "Modifications",
+        "governing": "Governing Law",
+        "contact": "Contact"
+      },
+      "content": {
+        "acceptanceP1": "By accessing or using Uplocal, you agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree with these terms, please do not use our service. Uplocal is operated by HiddenLab, a company registered in France (SIRET: 980 715 809 00011).",
+        "serviceP1": "Uplocal is a browser based AI image upscaling service. The actual image processing happens entirely within your web browser using WebAssembly and TensorFlow.js technology. We offer three subscription tiers: Free, Pro, and Studio. Each tier provides different limits on daily upscales, maximum scale factor, file size, batch processing, and additional features.",
+        "accountP1": "To use our paid features and to track your usage history, you must create an account. We use Google OAuth for authentication. You are responsible for maintaining the security of your Google account and for all activities that occur under your Uplocal account. You must provide accurate information and must be at least 16 years old to use our service.",
+        "subscriptionP1": "Uplocal offers the following subscription plans:",
+        "subscriptionList": "Free: 1 upscale per day at 2x maximum, 5MB file size limit, PNG and JPEG output.|Pro ($9 per month or $79 per year): unlimited upscales, up to 4x scale, 10MB file limit, all output formats, batch processing up to 10 images.|Studio ($24 per month or $199 per year): unlimited upscales, up to 8x scale, 10MB file limit, batch processing up to 50 images, custom output dimensions, API access, and commercial license.",
+        "subscriptionP2": "Subscriptions are billed monthly or annually via Stripe. Prices are in US dollars and exclude any applicable taxes. We may update pricing at any time but existing subscribers will keep their current pricing for the duration of their billing cycle.",
+        "cancellationP1": "You may cancel your subscription at any time from your dashboard or by contacting us. After cancellation, you will retain access to your paid features until the end of your current billing period. We do not offer refunds for partial billing periods, but we do offer a 7 day money back guarantee for new subscribers if you are not satisfied with the service.",
+        "ipP1": "You retain all rights to the images you upload and the upscaled outputs we produce. We claim no ownership of your content. The Uplocal service, including its design, code, branding, and AI models integration, is the intellectual property of HiddenLab and is protected by international copyright law. You may not copy, redistribute, or create derivative works of our service without our written permission.",
+        "useP1": "You agree not to use Uplocal for any of the following: processing illegal content including copyrighted material you do not own, child sexual abuse material, or content that violates any applicable law; reverse engineering, decompiling, or attempting to extract our source code or AI models; using automated tools to abuse our service or circumvent usage limits; sharing your account credentials with others; or any activity that could harm our service or its users.",
+        "privacyP1": "Your privacy is fundamental to our service. Please refer to our Privacy Policy for full details on how we handle your data. The most important point is that your images are processed entirely in your browser and never reach our servers.",
+        "liabilityP1": "Uplocal is provided as is without warranties of any kind. We do not guarantee specific quality results from our AI upscaling, as quality depends on your input image and your device hardware. To the maximum extent permitted by law, HiddenLab and its affiliates shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the service. Our total liability shall not exceed the amount you have paid us in the 12 months preceding the claim.",
+        "modificationsP1": "We may update these terms from time to time. We will notify you of significant changes via email. Continued use of the service after changes constitutes acceptance of the updated terms.",
+        "governingP1": "These terms are governed by the laws of France. Any dispute arising from your use of Uplocal shall be subject to the exclusive jurisdiction of the courts of France. EU consumers may also use the European Online Dispute Resolution platform.",
+        "contactP1": "For any questions about these terms, please contact us:",
+        "contactList": "HiddenLab (SIRET: 980 715 809 00011)|Email: contact@metalya.fr|Website: hiddenlab.fr"
+      }
+    }
+  }
+}
